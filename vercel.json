@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "index.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "scripts": {
+    "start": "bun run index.ts"
+  }
+}
