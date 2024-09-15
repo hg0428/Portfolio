@@ -1126,15 +1126,16 @@
     {
         "title": "Python Operating System Version 2.1.9",
         "myAge": "11",
-        "shortDescription": "This was my very first published project.",
-        "fullDescription": "This was my very first published project.",
+        "shortDescription": "This was my very first published project that I still have. It is a very complete shell emulator, including commands and functions.",
+        "fullDescription": "This was my very first published project that I still have. It is a very complete shell emulator, including commands and functions. There were earlier versions, but I don't have them anymore.",
         "images": [
             "/static/Media/images/projects/PythonOS.png"
         ],
         "frontImage": "/static/Media/images/projects/PythonOS.png",
         "tags": [
             "python",
-            "programming language"
+            "programming language",
+            "shell"
         ],
         "link": "https://replit.com/talk/share/Python-Operating-System-Version-219/21243",
         "code": "https://replit.com/@hg0428/FIlesystem",
