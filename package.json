@@ -10,6 +10,7 @@
     "nunjucks": "^3.2.4"
   },
   "scripts": {
-    "start": "bun index.ts"
+    "start": "bun index.ts",
+    "build": "bun build.ts"
   }
 }
