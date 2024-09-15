@@ -1,0 +1,92 @@
+.profile-card {
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /* box-shadow: 5px 5px 10px var(--shadow-dark),
+    -2px -2px 8px -5px var(--shadow-light); */
+  border-radius: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: 0.2s;
+}
+.profile-card:hover {
+  box-shadow: 5px 5px 10px var(--shadow-dark),
+  -2px -2px 8px -5px var(--shadow-light);
+  transform: scale(103%);
+}
+
+.profile-card .profile-icon {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  cursor: pointer;
+  color: var(--dark-text-color);
+}
+
+.profile-card {
+  color: var(--secondary-text-color);
+  position: relative;
+  padding-right: 7px;
+  padding-left: 10px;
+  background: linear-gradient(145deg, rgba(0, 0, 0, 0.03) 0%, var(--main-background) 30%, var(--main-background) 70%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+.profile-card:before {
+  box-shadow: inset 2.5px 1.5px 4px var(--shadow-dark),
+    inset -1px -1px 10px -5px var(--shadow-light);
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+}
+
+#profile-cards {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#github-profile-card img {
+  padding: 3px;
+}
+
+#linkedin-profile-card img {
+  width: 35px;
+  padding: 3px;
+}
+
+#youtube-profile-card img {
+  padding: 7px 3px;
+}
+
+#discord-profile-card img {
+  padding: 3px;
+}
+
+#email-profile-card img {
+  padding: 4px;
+}
+
+#phone-profile-card img {
+  padding: 5px;
+}
+#x-profile-card img {
+  padding: 4px;
+}
+.card-my-age {
+  color: #c5c5c5;
+  font-weight: 600;
+}
+.card-lines {
+  color: #c5c5c5;
+  font-weight: 600;
+}

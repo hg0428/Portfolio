@@ -1,0 +1,19 @@
+:root {
+  --inset-distance-light-x: 5px;
+  --inset-distance-dark-x: 5px;
+  --outset-distance-light-x: 5px;
+  --outset-distance-dark-x: 5px;
+  --inset-distance-light-y: 5px;
+  --inset-distance-dark-y: 5px;
+  --outset-distance-light-y: 5px;
+  --outset-distance-dark-y: 5px;
+  --inset-blur-radius-light: 10px;
+  --inset-blur-radius-dark: 10px;
+  --outset-blur-radius-light: 10px;
+  --outset-blur-radius-dark: 10px;
+}
+
+.neumorphic {
+  box-shadow: var(--outset-distance-dark-x) var(--outset-distance-dark-y) var(--outset-blur-radius-dark) #000000,
+    calc(-1 * var(--outset-distance-light-x)) calc(-1 * var(--outset-distance-light-y)) var(--outset-blur-radius-light) #ffffff;
+}

@@ -1,0 +1,85 @@
+img.project-image {
+  max-width: 28vw;
+  max-height: 28vh;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  img.project-image {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 15px;
+  }
+}
+.project-info {
+  text-align: center;
+}
+.project-info p {
+  max-width: max(50%, 400px);
+  margin: 0 auto;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /*space-evenly???*/
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+/* These are for adjusting sizes based on the number of items*/
+/* 1 item in gallery */
+.gallery img.project-image.gallery_item:first-child:nth-last-child(1) {
+  max-width: 80vw;
+  max-height: 75vh;
+}
+/* 2 items in gallery */
+.gallery img.project-image.gallery_item:first-child:nth-last-child(2),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(2) ~ img {
+  max-width: 40vw;
+  max-height: 40vh;
+}
+/* 3 items in gallery */
+.gallery img.project-image.gallery_item:first-child:nth-last-child(3),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(3) ~ img {
+  max-width: 30vw;
+  max-height: 30vh;
+}
+/* 4-20 items in gallery */
+/* .gallery img.project-image.gallery_item:first-child:nth-last-child(4),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(4) ~ img,
+.gallery img.project-image.gallery_item:first-child:nth-last-child(5),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(5) ~ img,
+.gallery img.project-image.gallery_item:first-child:nth-last-child(6),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(6) ~ img,
+.gallery img.project-image.gallery_item:first-child:nth-last-child(7),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(7) ~ img, 
+.gallery img.project-image.gallery_item:first-child:nth-last-child(8),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(8) ~ img,
+.gallery img.project-image.gallery_item:first-child:nth-last-child(9),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(9) ~ img,
+.gallery img.project-image.gallery_item:first-child:nth-last-child(10),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(10) ~ img,
+.gallery img.project-image.gallery_item:first-child:nth-last-child(11),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(11) ~ img,
+.gallery img.project-image.gallery_item:first-child:nth-last-child(12),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(12) ~ img,
+.gallery img.project-image.gallery_item:first-child:nth-last-child(13),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(13)~ img,
+.gallery img.project-image.gallery_item:first-child:nth-last-child(14),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(14) ~ img,
+.gallery img.project-image.gallery_item:first-child:nth-last-child(15),
+.gallery img.project-image.gallery_item:first-child:nth-last-child(15) ~ img, 
+
+{
+  max-width: 20vw;
+  max-height: 20vh;
+} */
+
+#project-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}

@@ -1,0 +1,1143 @@
+[
+    {
+        "title": "Aardvark 1.0 Compiler",
+        "myAge": "14-16",
+
+        "shortDescription": "This is a programming language I worked on with the rest of the 5-member Aardvark development team. The compiler is unfinished and is still being worked on. This is an active project.",
+        "fullDescription": "This is a programming language I worked on with the rest of the 5-member Aardvark development team. The compiler is unfinished and is still being worked on. This is an active project.",
+        "linesOfCode": "about 4,000",
+        "images": [
+            "/static/Media/images/projects/tensovark.png",
+            "/static/Media/images/projects/Aardvark-1.png",
+            "/static/Media/images/projects/Aardvark-autocorrect-test-error.jpeg",
+            "/static/Media/images/projects/Aardvark-missing-statement-error.jpeg",
+            "/static/Media/images/projects/Aardvark-writ-write-error.jpeg",
+            "/static/Media/images/projects/Aardvark-number-base-error.jpeg",
+            "/static/Media/images/projects/Aardvark-op-error.jpeg",
+            "/static/Media/images/projects/adkcode.png"
+        ],
+        "frontImage": "/static/Media/images/projects/Aardvark-1.png",
+        "tags": [
+            "aardvark",
+            "aardvark programming language",
+            "adk",
+            "self-hosted",
+            "programming language",
+            "language"
+        ],
+        "link": "https://github.com/Aardvark-team/Aardvark",
+        "code": "https://github.com/Aardvark-team/Aardvark",
+        "youtube": null
+    },
+    {
+        "title": "Aardvark 1.0 Documentation, Specifications, and Articles",
+        "myAge": "14-16",
+        "shortDescription": null,
+        "fullDescription": "This website includes documentation, specifications, many tutorials and articles, style guides, syntax guides, and so much more. I wrote most of it, but the actual syntax was agreed upon and designed by the Aardvark development team.",
+        "images": [
+            "/static/Media/images/projects/Aardvark-docs-1.png",
+            "/static/Media/images/projects/Aardvark-docs-2.png",
+            "/static/Media/images/projects/Aardvark-docs-3.png",
+            "/static/Media/images/projects/Aardvark-docs-4.png"
+        ],
+        "frontImage": "/static/Media/images/projects/Aardvark-docs-1.png",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "aardvark",
+            "docs",
+            "documentation",
+            "blog",
+            "articles"
+        ],
+        "link": "https://aardvark-docs.replit.app",
+        "code": "https://replit.com/@Programit/Aardvark-Docs",
+        "youtube": null
+    },
+    {
+        "title": "Aardvark 1.0 Interpretter",
+        "myAge": "14-16",
+        "shortDescription": "This is a programming language I worked on with the rest of the Aardvark development team. The interpretter is done and fully functional.",
+        "fullDescription": "This is a programming language I worked on with the rest of the Aardvark development team. The interpretter is done and fully functional.",
+        "images": [
+            "/static/Media/images/projects/tensovark.png",
+            "/static/Media/images/projects/Aardvark-1.png",
+            "/static/Media/images/projects/Aardvark-autocorrect-test-error.jpeg",
+            "/static/Media/images/projects/Aardvark-missing-statement-error.jpeg",
+            "/static/Media/images/projects/Aardvark-writ-write-error.jpeg",
+            "/static/Media/images/projects/Aardvark-number-base-error.jpeg",
+            "/static/Media/images/projects/Aardvark-op-error.jpeg",
+            "/static/Media/images/projects/adkcode.png"
+        ],
+        "frontImage": "/static/Media/images/projects/Aardvark-1.png",
+        "tags": [
+            "python",
+            "aardvark",
+            "aardvark programming language",
+            "adk",
+            "interpreter",
+            "programming language",
+            "language"
+        ],
+        "link": "https://aardvark-docs.programit.repl.co",
+        "code": "https://github.com/Aardvark-team/Aardvark",
+        "youtube": null,
+        "linesOfCode": "about 4,600"
+    },
+    {
+        "title": "A.C.T.S. Biblical Training Center Website",
+        "myAge": "15",
+        "shortDescription": "I was on the team that made this. I did the course and lessons cards, and the Install PWA prompt myself, but for the rest I used a combination of HTML/CSS/JS and the website builder.",
+        "fullDescription": "I was on the team that made this. I did the course and lessons cards, and the Install PWA prompt myself, but for the rest I used a combination of HTML/CSS/JS and the website builder. It was built on the Learnworlds platform.",
+        "images": ["/static/Media/images/projects/acts-lesson-cards.jpeg", "/static/Media/images/projects/acts-course-cards.jpeg", "/static/Media/images/projects/acts-food-preservation-features-image.jpeg"],
+        "frontImage": "/static/Media/images/projects/acts-lesson-cards.jpeg",
+        "tags": [
+            "html",
+            "css",
+            "js",
+            "acts",
+            "learnworlds",
+            "website",
+            "education",
+            "pwa",
+            "web app",
+            "courses",
+            "learn"
+        ],
+        "link": "https://actsbtc.com/",
+        "code": null,
+        "youtube": "https://www.youtube.com/watch?v=4oQMUskDv5w"
+    },
+    {
+        "title": "New Profile Page",
+        "myAge": "15-16",
+        "shortDescription": "This very website right here.",
+        "fullDescription": "This very website right here.",
+        "images": [
+            "/static/Media/images/projects/new-profile-page.jpeg"
+        ],
+        "frontImage": "/static/Media/images/projects/new-profile-page.jpeg",
+        "tags": [
+            "html",
+            "css",
+            "js",
+            "bun.js",
+            "profile",
+            "portfolio",
+            "projects"
+        ],
+        "link": "https://hgouge.replit.app/",
+        "code": "https://replit.com/@hg0428/New-Profile-Page-JS",
+        "youtube": null
+    },
+    {
+        "title": "EncryptoChat",
+        "myAge": "15",
+        "shortDescription": "This messaging application uses PGP encryption on every message. Your keys are not stored on server, but are instead stored locally inside of a password-locked encrypted localstorage... Click to view more information including video tour.",
+        "fullDescription": "This messaging application uses PGP encryption on every message. Your keys are not stored on server, but are instead stored locally inside of a password-locked encrypted localstorage. This was my final capstone project of CS50W. There was a 5 minuite max on the submission video.",
+        "images": [
+            "/static/Media/images/projects/encryptochat.png"
+        ],
+        "frontImage": "/static/Media/images/projects/encryptochat.png",
+        "tags": [
+            "html",
+            "js",
+            "javascript",
+            "css",
+            "python",
+            "django",
+            "pgp",
+            "encryption",
+            "login",
+            "chat",
+            "messenger",
+            "messaging",
+            "messaging app",
+            "messaging application"
+        ],
+        "link": "https://encryptochat.hg0428.repl.co/",
+        "code": "https://github.com/hg0428/Messenger",
+        "youtube": "https://www.youtube-nocookie.com/embed/Lf9efYyPLFg?si=0F8ob2g_WHzs4Xa2",
+        "linesOfCode": "about 3,000"
+    },
+    {
+        "title": "Projxon Cyber Security System",
+        "myAge": "14-15",
+        "shortDescription": "This Python library includes functions for xor based encryption as well as a somewhat decent custom hash function...",
+        "fullDescription": "This Python library includes functions for xor based encryption as well as a somewhat decent custom hash function.",
+        "images": [
+            "/static/Media/images/projects/pcss.png"
+        ],
+        "frontImage": "/static/Media/images/projects/pcss.png",
+        "tags": [
+            "python",
+            "encryption",
+            "hash",
+            "hashing",
+            "xor",
+            "encryption",
+            "cyber security",
+            "cybersecurity",
+            "security",
+            "cyber",
+            "security system"
+        ],
+        "link": "https://pypi.org/project/projxon-cyber-security-system/",
+        "code": "https://github.com/hg0428/Projxon-Cyber-Security-System",
+        "youtube": null
+    },
+    {
+        "title": "Social Network - CS50W Project 4",
+        "myAge": "15",
+        "shortDescription": "This was a project for CS50W from Harvard. There was a 5 minuite max on the submission video.",
+        "fullDescription": "This was a project for CS50W from Harvard.",
+        "images": ["/static/Media/images/projects/network.png", "/static/Media/images/projects/network-profile.png"],
+        "frontImage": "/static/Media/images/projects/network.png",
+        "tags": [
+            "html",
+            "js",
+            "css",
+            "python",
+            "django",
+            "bootstrap",
+            "social network",
+            "social media"
+        ],
+        "link": null,
+        "code": null,
+        "youtube": "https://www.youtube.com/embed/HWRfkrzUs60?si=DxLcRvsr7NiX1Dfy"
+    },
+    {
+        "title": "Mail - CS50W Project 3",
+        "myAge": "15",
+        "shortDescription": "This was a project for CS50W. Afterwards, I found the reason the purple line wasn't working is because I forgot the semicolon and end quote. Such a silly mistake.",
+        "fullDescription": "This was a project for CS50W. Afterwards, I found the reason the purple line wasn't working is because I forgot the semicolon and end quote. Such a silly mistake.",
+        "images": [],
+        "frontImage": null,
+        "tags": [
+            "html",
+            "js",
+            "css",
+            "python",
+            "django",
+            "bootstrap",
+            "email"
+        ],
+        "link": null,
+        "code": null,
+        "youtube": "https://www.youtube.com/embed/SoaYbhpEDgE?si=bUSLFTxAsPSOUynu"
+    },
+    {
+        "title": "Commerce - CS50W Project 2",
+        "myAge": "15",
+        "shortDescription": "This was a project for CS50W.",
+        "fullDescription": "This was a project for CS50W.",
+        "images": [],
+        "frontImage": null,
+        "tags": [
+            "html",
+            "js",
+            "css",
+            "python",
+            "django",
+            "bootstrap",
+            "commerce"
+        ],
+        "link": null,
+        "code": null,
+        "youtube": "https://www.youtube.com/embed/bKkmKkyKVtw?si=I_3f6Ux1JV1IFFXv"
+    },
+    {
+        "title": "Wiki - CS50W Project 1",
+        "myAge": "15",
+        "shortDescription": "This was a project for CS50W. It uses my own custom markdown parser.",
+        "fullDescription": "This was a project for CS50W. It uses my own custom markdown parser.",
+        "images": [],
+        "frontImage": null,
+        "tags": [
+            "html",
+            "js",
+            "css",
+            "python",
+            "django",
+            "wiki"
+        ],
+        "link": null,
+        "code": null,
+        "youtube": "https://www.youtube.com/embed/KVfx_NpbsBk?si=ssj5KemIyddkDNWu"
+    },
+    {
+        "title": "Search - CS50W Project 0",
+        "myAge": "15",
+        "shortDescription": "This was a project for CS50W.",
+        "fullDescription": "This was a project for CS50W.",
+        "images": [],
+        "frontImage": null,
+        "tags": [
+            "html",
+            "js",
+            "css",
+            "python",
+            "django",
+            "wiki"
+        ],
+        "link": null,
+        "code": null,
+        "youtube": "https://www.youtube.com/embed/5JZGUomKd_s?si=1pIx-M5d-RrBi1Hn"
+    },
+    {
+        "title": "ProAI",
+        "myAge": "15",
+        "shortDescription": "A completely custom (but slow) LLM text prediction library. Developed and trained locally on an iPad Pro. Built with NumPy.",
+        "fullDescription": "A completely custom (but slow) LLM text prediction library. Developed and trained locally on an iPad Pro. Built with NumPy.",
+        "images": ["/static/Media/images/projects/ProAI-1.jpg", "/static/Media/images/projects/ProAI-2.jpg", "/static/Media/images/projects/ProAI-3.jpg"],
+        "frontImage": "/static/Media/images/projects/ProAI-1.jpg",
+        "tags": [
+            "ai",
+            "numpy",
+            "python",
+            "math",
+            "llm",
+            "matrix multiplication",
+            "custom"
+        ],
+        "link": "https://github.com/hg0428/ProAI",
+        "code": "https://github.com/hg0428/ProAI",
+        "youtube": null
+    },
+    {
+        "title": "Adkcode",
+        "myAge": "13-15",
+        "shortDescription": "A project I worked on with the rest of the Aardvark development team. It is a code editor built for the Aardvark Programming language.",
+        "fullDescription": "A project I worked on with the rest of the Aardvark development team. It is a code editor built for the Aardvark Programming language.",
+        "images": [
+            "/static/Media/images/projects/adkcode.png",
+            "/static/Media/images/projects/tensovark.png"
+        ],
+        "frontImage": "/static/Media/images/projects/adkcode.png",
+        "tags": [
+            "html",
+            "css",
+            "adk",
+            "adkcode",
+            "aardvark",
+            "aardvark programming language",
+            "code editor",
+            "javascript",
+            "node.js",
+            "express.js"
+        ],
+        "link": "https://adkcode.replit.app",
+        "code": "https://github.com/Aardvark-team/Adkcode",
+        "youtube": null
+    },
+    {
+        "title": "Tricky Really 2",
+        "myAge": "13-15",
+        "shortDescription": null,
+        "fullDescription": "This game won honourable mention in the #MadeWithReplit competition.",
+        "images": [
+            "/static/Media/images/projects/tricky-really-2.png",
+            "/static/Media/images/projects/tricky-really-2-wide.png"
+        ],
+        "frontImage": "/static/Media/images/projects/tricky-really-2.png",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "node.js",
+            "tricky",
+            "game",
+            "socket.io",
+            "express.js",
+            "canvas-game",
+            "spelling-game",
+            "tricky really 2",
+            "tricky really 2 game"
+        ],
+        "link": "https://tricky-really.replit.app/",
+        "code": null,
+        "youtube": "https://www.youtube-nocookie.com/embed/bdrJU_77GLM?si=KBqEl38n4lttJLFc"
+    },
+    {
+        "title": "Academicool",
+        "myAge": "15",
+        "shortDescription": "Made for the Capstone project of the National Youth Leadership Forum for Engineering. It was a team project. I made the app, someone else made the name and logo, another made the slideshow, and another made a cad model of a van.",
+        "fullDescription": "Made for the Capstone project of the National Youth Leadership Forum for Engineering. It was a team project. I made the app, someone else made the name and logo, another made the slideshow, and another made a cad model of a van.",
+        "images": [
+            "/static/Media/images/projects/academicool.png"
+        ],
+        "frontImage": "/static/Media/images/projects/academicool.png",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "python",
+            "flask",
+            "json",
+            "learning",
+            "education",
+            "academic"
+        ],
+        "link": "https://academicool.hg0428.repl.co/",
+        "code": "https://github.com/hg0428/Academicool",
+        "youtube": "https://www.youtube-nocookie.com/embed/aCmykEQ7J6g?si=tgRx_EYR9fae95SX"
+    },
+    {
+        "title": "AI (best version)",
+        "myAge": "14",
+        "shortDescription": "I built an AI from scratch using numpy. I had no idea how LLMs really worked at the time, so I guessed, creating this single-layered AI that runs on a simple sigmoid function...",
+        "fullDescription": "I built an AI from scratch using numpy. I had no idea how LLMs really worked at the time, so I guessed, creating this single-layered AI that runs on a simple sigmoid function. It does not predict tokens, instead, it takes 5 characters as input and outputs 5 characters. It works surprisingly well for its size and it was able to understand more than I taught it, which proves that it wasn't too overfit. After this, I learned how LLMs really worked and went on to create some smaller text prediction models of my own.",
+        "images": ["/static/Media/images/projects/AI-image-1.png", "/static/Media/images/projects/AI-image-2.png"],
+        "frontImage": "/static/Media/images/projects/AI-image-2.png",
+        "tags": [
+            "python",
+            "numpy",
+            "ai"
+        ],
+        "link": "https://replit.com/@hg0428/ai-best-version",
+        "code": "https://replit.com/@hg0428/ai-best-version",
+        "youtube": null,
+        "linesOfCode": "about 600"
+    },
+    {
+        "title": "Chat",
+        "myAge": "14",
+        "shortDescription": "It's like discord, but if there was only one channel per server.",
+        "fullDescription": "It's like discord, but if there was only one channel per server.",
+        "images": ["/static/Media/images/projects/chat.png"],
+        "frontImage": "/static/Media/images/projects/chat.png",
+        "tags": [
+            "node.js",
+            "html",
+            "css",
+            "javascript",
+            "socket.io",
+            "express.js",
+            "chat",
+            "discord",
+            "chat app"
+        ],
+        "link": "https://chat.hg0428.repl.co/",
+        "code": "https://replit.com/@hg0428/Chat",
+        "youtube": null
+    },
+    {
+        "title": "New Game Engine",
+        "myAge": "14",
+        "shortDescription": null,
+        "fullDescription": "This is a game engine built in Javascript using the HTML5 canvas. I made it in collaboration with @JustCoding123/@NeverUsedDC. We designed it to be easy to use and powerful.",
+        "images": ["/static/Media/images/projects/new-game-engine-js.png", "/static/Media/images/projects/new-game-engine-js-2.png"],
+        "frontImage": "/static/Media/images/projects/new-game-engine-js-2.png",
+        "tags": [
+            "javascript",
+            "game",
+            "game engine",
+            "canvas",
+            "html",
+            "html5"
+        ],
+        "link": "https://new-game-engine-js.hg0428.repl.co/",
+        "code": "https://replit.com/@hg0428/New-Game-Engine-JS",
+        "youtube": null
+    },
+    {
+        "title": "Search The World 3",
+        "myAge": "14",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/search-the-world-3.png",
+            "/static/Media/images/projects/search-the-world-3-images.png",
+            "/static/Media/images/projects/search-the-world-3-images-thin.png",
+            "/static/Media/images/projects/search-the-world-3-thin.png"
+        ],
+        "frontImage": "/static/Media/images/projects/search-the-world-3-thin.png",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "python",
+            "flask",
+            "search",
+            "search engine",
+            "web crawling",
+            "web scraper",
+            "web scrape",
+            "web scraping",
+            "web crawler",
+            "search the world",
+            "parsing"
+        ],
+        "link": "https://search-the-world-3.hg0428.repl.co/",
+        "code": "https://replit.com/@hg0428/Search-The-World-3",
+        "youtube": null
+    },
+    {
+        "title": "Never Too Spicy",
+        "myAge": "14",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/never-too-spicy.png"
+        ],
+        "frontImage": "/static/Media/images/projects/never-too-spicy.png",
+        "tags": [
+            "javascript",
+            "html canvas",
+            "canvas",
+            "2d game",
+            "video game",
+            "game",
+            "game development",
+            "kajam",
+            "spicy"
+        ],
+        "link": "https://never-too-spicy.replit.app/",
+        "code": "https://replit.com/@hg0428/Never-too-Spicy",
+        "youtube": "https://www.youtube-nocookie.com/embed/aw7UprgoPQ4?si=YrsWQqlkN0MaiKju"
+    },
+    {
+        "title": "Just a Pong",
+        "myAge": "14",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/just-a-pong.png"
+        ],
+        "frontImage": "/static/Media/images/projects/just-a-pong.png",
+        "tags": [
+            "html",
+            "javascript",
+            "pong",
+            "game",
+            "game development"
+        ],
+        "link": "https://just-a-pong.hg0428.repl.co/",
+        "code": "https://replit.com/@hg0428/JUST-a-PONG",
+        "youtube": null
+    },
+    {
+        "title": "3D Rain effect",
+        "myAge": "13",
+        "shortDescription": "It's a 3d rain effect! My best attempt at the time, although I did eventually create something way better.",
+        "fullDescription": "It's a 3d rain effect! My best attempt at the time, although I did eventually create something way better.",
+        "images": [
+            "/static/Media/images/projects/3d-rain.png"
+        ],
+        "frontImage": "/static/Media/images/projects/3d-rain.png",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "canvas-game",
+            "html5-canvas",
+            "canvas",
+            "3d"
+        ],
+        "link": "https://my-best-attempt-at-3d-rain-effects.hg0428.repl.co/",
+        "code": "https://replit.com/@hg0428/My-best-attempt-at-3d-Rain-effects",
+        "youtube": null
+    },
+    {
+        "title": "SCIFF V2",
+        "myAge": "13",
+        "shortDescription": "Super Compact Image File Format. It's ranges from 55x larger than JPEG and PNG to 7x smaller for some images. It supports metadata too. Like other file formats, it stores compacted binary code for an image in a file that can then be read to view the image.",
+        "fullDescription": "Super Compact Image File Format. It's ranges from 55x larger than JPEG and PNG to 7x smaller for some images. It supports metadata too. Like other file formats, it stores compacted binary code for an image in a file that can then be read to view the image. I used Python's bitarray library and pillow to make this happen. Files can be converted to and from SCIFF.",
+        "images": [
+            "/static/Media/images/projects/sciff-v2.png"
+        ],
+        "frontImage": "/static/Media/images/projects/sciff-v2.png",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "game"
+        ],
+        "link": "https://replit.com/@hg0428/SCIFF-V2",
+        "code": "https://replit.com/@hg0428/SCIFF-V2",
+        "youtube": null
+    },
+    {
+        "title": "Counter Game",
+        "myAge": "13",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/counter-game.png"
+        ],
+        "frontImage": "/static/Media/images/projects/counter-game.png",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "game"
+        ],
+        "link": "https://counter-game.hg0428.repl.co/",
+        "code": "https://replit.com/@hg0428/Counter-Game",
+        "youtube": null
+    },
+    {
+        "title": "Tricky Really",
+        "myAge": "13",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/tricky-really-1.png"
+        ],
+        "frontImage": "/static/Media/images/projects/tricky-really-1.png",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "node.js",
+            "tricky",
+            "game",
+            "socket.io",
+            "express.js",
+            "canvas-game",
+            "spelling-game",
+            "tricky really"
+        ],
+        "link": "https://tricky-really.hg0428.repl.co/",
+        "code": "https://replit.com/@hg0428/Tricky-Really",
+        "youtube": "https://www.youtube-nocookie.com/embed/bdrJU_77GLM?si=KBqEl38n4lttJLFc"
+    },
+    {
+        "title": "AdkVM Aardvark docs",
+        "myAge": "12",
+        "shortDescription": "The docs for AdkVM Aardvark.",
+        "fullDescription": "The docs for AdkVM Aardvark.",
+        "images": [
+            "/static/Media/images/projects/adkvm-docs.png"
+        ],
+        "frontImage": "/static/Media/images/projects/adkvm-docs.png",
+        "tags": [
+            "aardvark",
+            "aardvark programming language",
+            "adk",
+            "interpretter",
+            "programming language",
+            "language",
+            "website",
+            "docs",
+            "html",
+            "css",
+            "javascript",
+            "js"
+        ],
+        "link": "https://docs.programit.repl.co/",
+        "code": null,
+        "youtube": null
+    },
+    {
+        "title": "AdkVM - Aardvark bytecode compiler",
+        "myAge": "13",
+        "shortDescription": "@Theboys619 actually made msot of it. I helped a lot at the end though. This project was abandoned because @Theboys619 became unresponsive and left the team, and the rest of us couldn't navigate the codebase without him.",
+        "fullDescription": "@Theboys619 actually made msot of it. I helped a lot at the end though. This project was abandoned because @Theboys619 became unresponsive and left the team, and the rest of us couldn't navigate the codebase without him. @Theboys619 was a dedicated Aardvark developer who worked through two implementations of the language, and we were all sad to see him leave. You can find his AardvarkC project <a href=\"https://www.youtube.com/playlist?list=PL2K-yVF6vU--TneOL_8RiPbjlRM6DdbND\">here</a>",
+        "images": [
+            "/static/Media/images/projects/adkvm-1.png"
+        ],
+        "frontImage": "/static/Media/images/projects/adkvm-1.png",
+        "tags": [
+            "aardvark",
+            "aardvark programming language",
+            "adk",
+            "c++",
+            "programming language",
+            "language"
+        ],
+        "link": "https://aardvark-docs.programit.repl.co",
+        "code": "https://replit.com/@Programit/Adk",
+        "youtube": null
+    },
+    {
+        "title": "Idea Generator V2",
+        "myAge": "13",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/idea-gen-2-one.png",
+            "/static/Media/images/projects/idea-gen-2-two.png"
+        ],
+        "frontImage": "/static/Media/images/projects/idea-gen-2-one.png",
+        "tags": [
+            "python",
+            "html",
+            "css",
+            "flask",
+            "ideas",
+            "nlp"
+        ],
+        "link": "https://idea-generator-tutorial.hg0428.repl.co/",
+        "code": "https://replit.com/@hg0428/Idea-Generator-Tutorial",
+        "youtube": "https://www.youtube-nocookie.com/embed/bX3_p2ShZDU?si=evvS072FnsEEEmKu"
+    },
+    {
+        "title": "2D DOM JS Game Engine",
+        "myAge": "13",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/game-engine.jpeg"
+        ],
+        "frontImage": "/static/Media/images/projects/game-engine.jpeg",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "canvas-game",
+            "canvas",
+            "2d",
+            "game",
+            "game engine",
+            "game development"
+        ],
+        "link": "https://kajam.hg0428.repl.co",
+        "code": "https://replit.com/@hg0428/Kajam",
+        "youtube": null
+    },
+    {
+        "title": "Socket.io Test",
+        "myAge": "13",
+        "shortDescription": "Uses Express.js and Socket.io to create a basic 2d online multiplayer game. ",
+        "fullDescription": "Uses Express.js and Socket.io to create a basic 2d online multiplayer game. ",
+        "images": [
+            "/static/Media/images/projects/socketio.jpeg"
+        ],
+        "frontImage": "/static/Media/images/projects/socketio.jpeg",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "canvas-game",
+            "canvas",
+            "2d",
+            "game",
+            "game engine",
+            "game development",
+            "socket.io",
+            "express.js",
+            "node.js"
+        ],
+        "link": "https://socketio-test.hg0428.repl.co",
+        "code": "https://replit.com/@hg0428/Socketio-Test",
+        "youtube": null
+    },
+    {
+        "title": "Fun Console Animation",
+        "myAge": "13",
+        "shortDescription": "A simple, fun animation with the fibonacci sequence. I made this after discovering that every 5 Fibonacci numbers, the number of digits goes up by 1. Its just a simple 5 minute project.",
+        "fullDescription": "A simple, fun animation with the fibonacci sequence. I made this after discovering that every 5 Fibonacci numbers, the number of digits goes up by 1. Its just a simple 5 minute project.",
+        "images": [],
+        "frontImage": null,
+        "tags": [
+            "python",
+            "animation",
+            "console",
+            "terminal",
+            "fib",
+            "fibonacci"
+        ],
+        "link": "https://replit.com/talk/share/Fun-Console-Animation/146697",
+        "code": "https://replit.com/talk/share/Fun-Console-Animation/146697",
+        "youtube": "https://www.youtube.com/embed/BHg1wJWQkDk?si=A4Kn2feMcBlLVDQJ"
+    },
+    {
+        "title": "CSS Library",
+        "myAge": "13",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/css-library.png"
+        ],
+        "frontImage": "/static/Media/images/projects/css-library.png",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "game"
+        ],
+        "link": "https://css-library.hg0428.repl.co/",
+        "code": "https://replit.com/@hg0428/CSS-Library",
+        "youtube": null
+    },
+    {
+        "title": "Projxon Login",
+        "myAge": "12-13",
+        "shortDescription": null,
+        "fullDescription": "Even your user name is encrypted here! Once you login, you can connect your google or replit account to it.",
+        "images": [
+            "/static/Media/images/projects/projxon-login-1.png",
+            "/static/Media/images/projects/projxon-login-2.png",
+            "/static/Media/images/projects/projxon-login-3.png",
+            "/static/Media/images/projects/projxon-login-4.png",
+            "/static/Media/images/projects/projxon-login-5.png"
+        ],
+        "frontImage": "/static/Media/images/projects/projxon-login-2.png",
+        "tags": [
+            "python",
+            "login",
+            "google-auth",
+            "google-oauth2",
+            "encryption",
+            "login",
+            "signin",
+            "signup",
+            "projxon",
+            "projxon login",
+            "css",
+            "html",
+            "javascript"
+        ],
+        "link": "https://projxon.repl.co/",
+        "code": "https://replit.com/@Projxon/Projxon",
+        "youtube": null,
+        "linesOfCode": "About 1,200"
+    },
+    {
+        "title": "Search The World 2",
+        "myAge": "12-13",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/search-the-world-2.jpeg",
+            "/static/Media/images/projects/search-the-world-2-light-safari.png",
+            "/static/Media/images/projects/search-the-world-2-dark-safari.png",
+            "/static/Media/images/projects/search-the-world-2-dark.jpeg",
+            "/static/Media/images/projects/search-the-world-2-results.jpeg"
+        ],
+        "frontImage": "/static/Media/images/projects/search-the-world-2.jpeg",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "python",
+            "flask",
+            "search",
+            "search engine",
+            "web crawling",
+            "web scraper",
+            "web scrape",
+            "web scraping",
+            "web crawler",
+            "search the world",
+            "parsing"
+        ],
+        "link": "https://search-the-world.hg0428.repl.co/",
+        "code": "https://replit.com/@hg0428/Search-The-World",
+        "youtube": null
+    },
+    {
+        "title": "CSISP Website",
+        "myAge": "12",
+        "shortDescription": "This is a website explaining the syntax and implementation of CSISP, or the Client-Server Information Share Protocol. It is a HTTP replacement I came up with.",
+        "fullDescription": "This is a website explaining the syntax and implementation of CSISP, or the Client-Server Information Share Protocol. It is a HTTP replacement I came up with.",
+        "images": [
+            "/static/Media/images/projects/CSISP.png"
+        ],
+        "frontImage": "/static/Media/images/projects/CSISP.png",
+        "tags": [
+            "html",
+            "css",
+            "python",
+            "http",
+            "http/1",
+            "http/1.1",
+            "protocol",
+            "standard"
+        ],
+        "link": "https://csisp.projxon.repl.co/",
+        "code": "https://replit.com/@Projxon/CSISP",
+        "youtube": null
+    },
+    {
+        "title": "Webr",
+        "myAge": "12",
+        "shortDescription": "This is a Python library for servers with no external dependancies! It's very similar to Flask, but slightly more low level. I never finished it, and I never published it, but it taught me how to build HTTP servers from scratch with only sockets.",
+        "fullDescription": "This is a Python library for servers with no external dependancies! It's very similar to Flask, but slightly more low level. I never finished it, and I never published it, but it taught me how to build HTTP servers from scratch with only sockets.",
+        "images": [
+            "/static/Media/images/projects/webr.png"
+        ],
+        "frontImage": "/static/Media/images/projects/webr.png",
+        "tags": [
+            "html",
+            "python",
+            "http",
+            "http/1",
+            "http/1.1",
+            "server"
+        ],
+        "link": "https://webr.projxon.repl.co/",
+        "code": "https://replit.com/@Projxon/webr",
+        "youtube": null
+    },
+    {
+        "title": "My Original Profile Page",
+        "myAge": "12",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/my-original-profile-page.jpeg"
+        ],
+        "frontImage": "/static/Media/images/projects/my-original-profile-page.jpeg",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "python",
+            "flask",
+            "profile",
+            "portfolio"
+        ],
+        "link": "https://hg0428.repl.co",
+        "code": "https://replit.com/@hg0428/hg0428",
+        "youtube": null
+    },
+    {
+        "title": "AmazingActiveProgrammingBot",
+        "myAge": "12",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/amazingactiveprogrammingbot.jpeg"
+        ],
+        "frontImage": "/static/Media/images/projects/amazingactiveprogrammingbot.jpeg",
+        "tags": [
+            "discord bot",
+            "python"
+        ],
+        "link": "https://top.gg/bot/745166643990233118?tab=updates",
+        "code": "https://replit.com/@hg0428/AmazingActiveProgrammingBot",
+        "youtube": null
+    },
+    {
+        "title": "Search The World 1",
+        "myAge": "12",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/search-the-world-1.jpeg"
+        ],
+        "frontImage": "/static/Media/images/projects/search-the-world-1.jpeg",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "python",
+            "flask",
+            "search",
+            "search engine",
+            "web crawling",
+            "web scraper",
+            "web scrape",
+            "web scraping",
+            "web crawler",
+            "search the world",
+            "parsing"
+        ],
+        "link": "https://search-engine.hg0428.repl.co/",
+        "code": "https://replit.com/@hg0428/Search-Engine",
+        "youtube": null
+    },
+    {
+        "title": "Idea Generator V1",
+        "myAge": "12",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/idea-gen-1-one.png",
+            "/static/Media/images/projects/idea-gen-1-two.png",
+            "/static/Media/images/projects/idea-gen-1-three.png",
+            "/static/Media/images/projects/idea-gen-1-four.png"
+        ],
+        "frontImage": "/static/Media/images/projects/idea-gen-1-one.png",
+        "tags": [
+            "html",
+            "python",
+            "flask",
+            "ideas",
+            "nlp"
+        ],
+        "link": "https://idea-generator.hg0428.repl.co/",
+        "code": "https://replit.com/@hg0428/Idea-Generator",
+        "youtube": null
+    },
+    {
+        "title": "Smartbot",
+        "myAge": "12",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/smartbot.png"
+        ],
+        "frontImage": "/static/Media/images/projects/smartbot.png",
+        "tags": [
+            "python",
+            "nlp",
+            "nltk",
+            "chatbot"
+        ],
+        "link": "https://replit.com/@hg0428/chatter",
+        "code": "https://replit.com/@hg0428/chatter",
+        "youtube": null
+    },
+    {
+        "title": "Original Aardvark docs",
+        "myAge": "12",
+        "shortDescription": "The docs for the original Aardvark.",
+        "fullDescription": "The docs for the original Aardvark.",
+        "images": [
+            "/static/Media/images/projects/original-aardvark-docs.png"
+        ],
+        "frontImage": "/static/Media/images/projects/original-aardvark-docs.png",
+        "tags": [
+            "aardvark",
+            "aardvark programming language",
+            "adk",
+            "interpretter",
+            "programming language",
+            "language",
+            "website",
+            "docs",
+            "readthedocs"
+        ],
+        "link": "https://aardvark.readthedocs.io/en/latest/",
+        "code": null,
+        "youtube": null
+    },
+    {
+        "title": "Aardvark website",
+        "myAge": "12",
+        "shortDescription": "This website has barely been updated since it was created. It hosts the original APE (a package manager for Aardvark), which actually still works.",
+        "fullDescription": "This website has barely been updated since it was created. It hosts the original APE (a package manager for Aardvark), which actually still works.",
+        "images": [
+            "/static/Media/images/projects/aardvark-website.png"
+        ],
+        "frontImage": "/static/Media/images/projects/aardvark-website.png",
+        "tags": [
+            "aardvark",
+            "aardvark programming language",
+            "adk",
+            "interpretter",
+            "programming language",
+            "language",
+            "package manager",
+            "ape",
+            "website",
+            "html",
+            "css",
+            "js",
+            "javascript"
+        ],
+        "link": "https://aardvark-website.programit.repl.co/",
+        "code": "https://replit.com/@programit/Aardvark-website",
+        "youtube": null
+    },
+    {
+        "title": "The original Aardvark: 0.7.4 - 0.8.7",
+        "myAge": "12",
+        "shortDescription": "Aardvark was born out of the Replit LangJam, a programming competition where each team built a full programming language. The winner recieved $10,000 and a spot as an official language on Replit. It was @PlasDev, @ZDev1, and I on a team against some of the most experienced coders around. We didn't win, but we started something that would never die. A project that forever strives to make programming easy and powerful, revolutionizing coding the world around. Aardvark has never died, it has always inspired the minds of programmers around the world to join the cause. Though the team has changed and shifted, our purpose never will.",
+        "fullDescription": "Aardvark was born out of the Replit LangJam, a programming competition where each team built a full programming language. The winner recieved $10,000 and a spot as an official language on Replit. It was @PlasDev, @ZPlus4, and I on a team against some of the most experienced coders around. We didn't win, but we started something that would never die. A project that forever strives to make programming easy and powerful, revolutionizing coding the world around. Aardvark has never died, it has always inspired the minds of programmers around the world to join the cause. Though the team has changed and shifted, our purpose never will.",
+        "images": [
+            "/static/Media/images/projects/original-aardvark.png"
+        ],
+        "frontImage": "/static/Media/images/projects/original-aardvark.png",
+        "tags": [
+            "aardvark",
+            "aardvark programming language",
+            "adk",
+            "python",
+            "regex",
+            "interpretter",
+            "programming language",
+            "language"
+        ],
+        "link": "https://replit.com/talk/share/Aardvark-The-language-that-covers-all-of-your-needs/51790",
+        "code": "https://replit.com/@programit/Aardvark-BETA",
+        "youtube": null
+    },
+    {
+        "title": "Self-Reproducing Program",
+        "myAge": "11",
+        "shortDescription": "Let it run, and it will eventually take up all your computer's storage space!",
+        "fullDescription": "Let it run, and it will eventually take up all your computer's storage space!",
+        "images": [],
+        "frontImage": null,
+        "tags": [
+            "python"
+        ],
+        "link": null,
+        "code": null,
+        "youtube": null
+    },
+    {
+        "title": "Information-based Password Cracker",
+        "myAge": "11",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/password-cracker.png"
+        ],
+        "frontImage": "/static/Media/images/projects/password-cracker.png",
+        "tags": [
+            "python",
+            "password cracker"
+        ],
+        "link": "https://replit.com/talk/share/Information-based-Password-Cracker/31781",
+        "code": "https://replit.com/@hg0428/password-cracker",
+        "youtube": null
+    },
+    {
+        "title": "Simple Cypher",
+        "myAge": "11",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [],
+        "frontImage": null,
+        "tags": [
+            "python",
+            "cypher"
+        ],
+        "link": null,
+        "code": null,
+        "youtube": null
+    },
+    {
+        "title": "Python Autocorrect",
+        "myAge": "11",
+        "shortDescription": null,
+        "fullDescription": null,
+        "images": [
+            "/static/Media/images/projects/autocorrect.png",
+            "/static/Media/images/projects/autocorrect-2.png"
+        ],
+        "frontImage": "/static/Media/images/projects/autocorrect.png",
+        "tags": [
+            "python",
+            "autocorrect",
+            "nlp"
+        ],
+        "link": "https://replit.com/@hg0428/autocorrect",
+        "code": "https://replit.com/@hg0428/autocorrect",
+        "youtube": null
+    },
+    {
+        "title": "Python Operating System Version 2.1.9",
+        "myAge": "11",
+        "shortDescription": "This was my very first published project.",
+        "fullDescription": "This was my very first published project.",
+        "images": [
+            "/static/Media/images/projects/PythonOS.png"
+        ],
+        "frontImage": "/static/Media/images/projects/PythonOS.png",
+        "tags": [
+            "python",
+            "programming language"
+        ],
+        "link": "https://replit.com/talk/share/Python-Operating-System-Version-219/21243",
+        "code": "https://replit.com/@hg0428/FIlesystem",
+        "youtube": null
+    }
+]
