@@ -14,12 +14,20 @@ nunjucks.render('templates/index.html', { projects }, function(err, res) {
         fs.writeFileSync('client/index.html', res);
     }
 });
+function makeDir(dir: string) {
+    if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir);
+    }
+}
+makeDir("client/projects")
 for (let project of projects) {
     nunjucks.render("templates/project.html", { project }, (err, res) => {
         if (err) {
             console.error(err);
         } else {
-            fs.writeFileSync(`client/projects/${project.title.replaceAll(" ", "%20")}.html`, res);
+            let dir = `client/projects/${project.title.replaceAll(" ", "%20")}`
+            makeDir(dir);
+            fs.writeFileSync(`${dir}/index.html`, res);
         }
     })
 }
