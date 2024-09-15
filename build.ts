@@ -25,9 +25,8 @@ for (let project of projects) {
         if (err) {
             console.error(err);
         } else {
-            let dir = `client/projects/${project.title.replaceAll(" ", "%20")}`
-            makeDir(dir);
-            fs.writeFileSync(`${dir}/index.html`, res);
+            let f = `client/projects/${project.title.replaceAll(" ", "%20")}.html`
+            fs.writeFileSync(f, res);
         }
     })
 }

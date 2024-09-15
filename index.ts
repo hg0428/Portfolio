@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
 
 // Dynamic route for individual projects
 app.get('/projects/:projectName', (req, res) => {
-  const projectName = req.params.projectName;
+  const projectName = req.params.projectName.removeSuffix('.html');
   const project = projects.find(p => p.title === projectName);
 
   if (project) {

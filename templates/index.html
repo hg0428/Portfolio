@@ -122,13 +122,13 @@
     <h2>Projects</h2>
     <div id="projects-list-wrapper">
       {% for project in projects %}
-    <div class="card" onclick="window.location.href='/projects/{{project.title}}'">
+    <div class="card" onclick="window.location.href='/projects/{{project.title}}.html'">
       {% if project.frontImage %}
       <img class="card-main-image" src="{{project.frontImage}}" />
       {% elif project.youtube %}
       <iframe class="card-main-image"  height="250" src="{{project.youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       {% endif %}
-              <a href="/projects/{{project.title}}" class="card-title" target="_blank" rel="noopener noreferrer">{{project.title}}</a>
+              <a href="/projects/{{project.title}}.html" class="card-title" target="_blank" rel="noopener noreferrer">{{project.title}}</a>
       {% if project.myAge %}
       <div class="card-my-age">My Age: <span class="age">{{project.myAge}}</span></div>
       {%endif%}
