@@ -2,7 +2,6 @@
     {
         "title": "Aardvark 1.0 Compiler",
         "myAge": "14-16",
-
         "shortDescription": "This is a programming language I worked on with the rest of the 5-member Aardvark development team. The compiler is unfinished and is still being worked on. This is an active project.",
         "fullDescription": "This is a programming language I worked on with the rest of the 5-member Aardvark development team. The compiler is unfinished and is still being worked on. This is an active project.",
         "linesOfCode": "about 4,000",
@@ -90,7 +89,11 @@
         "myAge": "15",
         "shortDescription": "I was on the team that made this. I did the course and lessons cards, and the Install PWA prompt myself, but for the rest I used a combination of HTML/CSS/JS and the website builder.",
         "fullDescription": "I was on the team that made this. I did the course and lessons cards, and the Install PWA prompt myself, but for the rest I used a combination of HTML/CSS/JS and the website builder. It was built on the Learnworlds platform.",
-        "images": ["/static/Media/images/projects/acts-lesson-cards.jpeg", "/static/Media/images/projects/acts-course-cards.jpeg", "/static/Media/images/projects/acts-food-preservation-features-image.jpeg"],
+        "images": [
+            "/static/Media/images/projects/acts-lesson-cards.jpeg",
+            "/static/Media/images/projects/acts-course-cards.jpeg",
+            "/static/Media/images/projects/acts-food-preservation-features-image.jpeg"
+        ],
         "frontImage": "/static/Media/images/projects/acts-lesson-cards.jpeg",
         "tags": [
             "html",
@@ -192,7 +195,10 @@
         "myAge": "15",
         "shortDescription": "This was a project for CS50W from Harvard. There was a 5 minuite max on the submission video.",
         "fullDescription": "This was a project for CS50W from Harvard.",
-        "images": ["/static/Media/images/projects/network.png", "/static/Media/images/projects/network-profile.png"],
+        "images": [
+            "/static/Media/images/projects/network.png",
+            "/static/Media/images/projects/network-profile.png"
+        ],
         "frontImage": "/static/Media/images/projects/network.png",
         "tags": [
             "html",
@@ -291,7 +297,11 @@
         "myAge": "15",
         "shortDescription": "A completely custom (but slow) LLM text prediction library. Developed and trained locally on an iPad Pro. Built with NumPy.",
         "fullDescription": "A completely custom (but slow) LLM text prediction library. Developed and trained locally on an iPad Pro. Built with NumPy.",
-        "images": ["/static/Media/images/projects/ProAI-1.jpg", "/static/Media/images/projects/ProAI-2.jpg", "/static/Media/images/projects/ProAI-3.jpg"],
+        "images": [
+            "/static/Media/images/projects/ProAI-1.jpg",
+            "/static/Media/images/projects/ProAI-2.jpg",
+            "/static/Media/images/projects/ProAI-3.jpg"
+        ],
         "frontImage": "/static/Media/images/projects/ProAI-1.jpg",
         "tags": [
             "ai",
@@ -336,7 +346,7 @@
         "title": "Tricky Really 2",
         "myAge": "13-15",
         "shortDescription": null,
-        "fullDescription": "This game won honourable mention in the #MadeWithReplit competition.",
+        "fullDescription": "This game won honorable mention in the #MadeWithReplit competition.",
         "images": [
             "/static/Media/images/projects/tricky-really-2.png",
             "/static/Media/images/projects/tricky-really-2-wide.png"
@@ -389,7 +399,10 @@
         "myAge": "14",
         "shortDescription": "I built an AI from scratch using numpy. I had no idea how LLMs really worked at the time, so I guessed, creating this single-layered AI that runs on a simple sigmoid function...",
         "fullDescription": "I built an AI from scratch using numpy. I had no idea how LLMs really worked at the time, so I guessed, creating this single-layered AI that runs on a simple sigmoid function. It does not predict tokens, instead, it takes 5 characters as input and outputs 5 characters. It works surprisingly well for its size and it was able to understand more than I taught it, which proves that it wasn't too overfit. After this, I learned how LLMs really worked and went on to create some smaller text prediction models of my own.",
-        "images": ["/static/Media/images/projects/AI-image-1.png", "/static/Media/images/projects/AI-image-2.png"],
+        "images": [
+            "/static/Media/images/projects/AI-image-1.png",
+            "/static/Media/images/projects/AI-image-2.png"
+        ],
         "frontImage": "/static/Media/images/projects/AI-image-2.png",
         "tags": [
             "python",
@@ -406,7 +419,9 @@
         "myAge": "14",
         "shortDescription": "It's like discord, but if there was only one channel per server.",
         "fullDescription": "It's like discord, but if there was only one channel per server.",
-        "images": ["/static/Media/images/projects/chat.png"],
+        "images": [
+            "/static/Media/images/projects/chat.png"
+        ],
         "frontImage": "/static/Media/images/projects/chat.png",
         "tags": [
             "node.js",
@@ -426,9 +441,12 @@
     {
         "title": "New Game Engine",
         "myAge": "14",
-        "shortDescription": null,
+        "shortDescription": "This is a game engine built in Javascript using the HTML5 canvas. I made it in collaboration with @JustCoding123/@NeverUsedDC. We designed it to be easy to use and powerful.",
         "fullDescription": "This is a game engine built in Javascript using the HTML5 canvas. I made it in collaboration with @JustCoding123/@NeverUsedDC. We designed it to be easy to use and powerful.",
-        "images": ["/static/Media/images/projects/new-game-engine-js.png", "/static/Media/images/projects/new-game-engine-js-2.png"],
+        "images": [
+            "/static/Media/images/projects/new-game-engine-js.png",
+            "/static/Media/images/projects/new-game-engine-js-2.png"
+        ],
         "frontImage": "/static/Media/images/projects/new-game-engine-js-2.png",
         "tags": [
             "javascript",
@@ -445,8 +463,8 @@
     {
         "title": "Search The World 3",
         "myAge": "14",
-        "shortDescription": null,
-        "fullDescription": null,
+        "shortDescription": "This third iteration of the Search The World series builds upon the idea of the previous versions, but with an engine rebuilt from the ground up to be more powerful and dynamic. It can scrape images and even rich results... Click for more details.",
+        "fullDescription": "This third iteration of the Search The World series builds upon the idea of the previous versions, but with an engine rebuilt from the ground up to be more powerful and dynamic. It can scrape images and even rich results such as information about authors, dates, and people. It includes full safe search capabilities and scans all images and content. It does have a very advanced system for information about and definitions for words, that I still to this day find useful when writing.",
         "images": [
             "/static/Media/images/projects/search-the-world-3.png",
             "/static/Media/images/projects/search-the-world-3-images.png",
@@ -478,7 +496,7 @@
         "title": "Never Too Spicy",
         "myAge": "14",
         "shortDescription": null,
-        "fullDescription": null,
+        "fullDescription": "",
         "images": [
             "/static/Media/images/projects/never-too-spicy.png"
         ],
@@ -502,7 +520,7 @@
         "title": "Just a Pong",
         "myAge": "14",
         "shortDescription": null,
-        "fullDescription": null,
+        "fullDescription": "A classic Pong game, but with a twist! You can stretch!",
         "images": [
             "/static/Media/images/projects/just-a-pong.png"
         ],
@@ -563,7 +581,7 @@
         "title": "Counter Game",
         "myAge": "13",
         "shortDescription": null,
-        "fullDescription": null,
+        "fullDescription": "I honestly don't even know why I made this.",
         "images": [
             "/static/Media/images/projects/counter-game.png"
         ],
@@ -634,8 +652,8 @@
     {
         "title": "AdkVM - Aardvark bytecode compiler",
         "myAge": "13",
-        "shortDescription": "@Theboys619 actually made msot of it. I helped a lot at the end though. This project was abandoned because @Theboys619 became unresponsive and left the team, and the rest of us couldn't navigate the codebase without him.",
-        "fullDescription": "@Theboys619 actually made msot of it. I helped a lot at the end though. This project was abandoned because @Theboys619 became unresponsive and left the team, and the rest of us couldn't navigate the codebase without him. @Theboys619 was a dedicated Aardvark developer who worked through two implementations of the language, and we were all sad to see him leave. You can find his AardvarkC project <a href=\"https://www.youtube.com/playlist?list=PL2K-yVF6vU--TneOL_8RiPbjlRM6DdbND\">here</a>",
+        "shortDescription": "@Theboys619 actually made most of it. I helped a lot at the end though. This project was abandoned because @Theboys619 became unresponsive and left the team, and the rest of us couldn't navigate the codebase without him. Click for more info.",
+        "fullDescription": "@Theboys619 actually made most of it. I helped a lot at the end though. This project was abandoned because @Theboys619 became unresponsive and left the team, and the rest of us couldn't navigate the codebase without him. @Theboys619 was a dedicated Aardvark developer who worked through two implementations of the language, and we were all sad to see him leave. You can find his AardvarkC project <a href=\"https://www.youtube.com/playlist?list=PL2K-yVF6vU--TneOL_8RiPbjlRM6DdbND\">here</a>",
         "images": [
             "/static/Media/images/projects/adkvm-1.png"
         ],
@@ -656,7 +674,7 @@
         "title": "Idea Generator V2",
         "myAge": "13",
         "shortDescription": null,
-        "fullDescription": null,
+        "fullDescription": "An idea generator that I also made a YouTube tutorial for.",
         "images": [
             "/static/Media/images/projects/idea-gen-2-one.png",
             "/static/Media/images/projects/idea-gen-2-two.png"
@@ -678,7 +696,7 @@
         "title": "2D DOM JS Game Engine",
         "myAge": "13",
         "shortDescription": null,
-        "fullDescription": null,
+        "fullDescription": "A powerful JS game engine that runs on using DOM elements instead of the canvas. It makes a lot of stuff easier because it supports CSS.",
         "images": [
             "/static/Media/images/projects/game-engine.jpeg"
         ],
@@ -748,7 +766,7 @@
         "title": "CSS Library",
         "myAge": "13",
         "shortDescription": null,
-        "fullDescription": null,
+        "fullDescription": "It's... well... a CSS Library. I can't really describe it much more than the name. It's just whatever CSS I thought I would like to use, so I put it into a library. I did use it for a bunch of my projects.",
         "images": [
             "/static/Media/images/projects/css-library.png"
         ],
@@ -799,8 +817,8 @@
     {
         "title": "Search The World 2",
         "myAge": "12-13",
-        "shortDescription": null,
-        "fullDescription": null,
+        "shortDescription": "Search The World 2 was a well-styled and pretty decent search engine that I built. It even has an API.",
+        "fullDescription": "Search The World 2 was a well-styled and pretty decent search engine that I built. It even has an API.",
         "images": [
             "/static/Media/images/projects/search-the-world-2.jpeg",
             "/static/Media/images/projects/search-the-world-2-light-safari.png",
@@ -899,7 +917,7 @@
         "title": "AmazingActiveProgrammingBot",
         "myAge": "12",
         "shortDescription": null,
-        "fullDescription": null,
+        "fullDescription": "A Discord Bot that was very popular for a while. When Replit made a bunch of changes, the bot went down, and has not been running consistently since.",
         "images": [
             "/static/Media/images/projects/amazingactiveprogrammingbot.jpeg"
         ],
@@ -967,8 +985,8 @@
     {
         "title": "Smartbot",
         "myAge": "12",
-        "shortDescription": null,
-        "fullDescription": null,
+        "shortDescription": "Uses NLP to create a chatbot. Pretty simple. No generative AI, just pre-defined patterns. Used Python's nltk library.",
+        "fullDescription": "Uses NLP to create a chatbot. Pretty simple. No generative AI, just pre-defined patterns. Used Python's nltk library.",
         "images": [
             "/static/Media/images/projects/smartbot.png"
         ],
@@ -1075,8 +1093,8 @@
     {
         "title": "Information-based Password Cracker",
         "myAge": "11",
-        "shortDescription": null,
-        "fullDescription": null,
+        "shortDescription": "This program has a brute force system, but also includes an \"Information-based Password Cracker\", which takes in user information such as name, birthday, significant number, names, or things and applies them procedurally to common password patterns.",
+        "fullDescription": "This program has a brute force system, but also includes an \"Information-based Password Cracker\", which takes in user information such as name, birthday, significant number, names, or things and applies them procedurally to common password patterns.",
         "images": [
             "/static/Media/images/projects/password-cracker.png"
         ],
@@ -1090,7 +1108,7 @@
         "youtube": null
     },
     {
-        "title": "Simple Cypher",
+        "title": "Simple Cipher",
         "myAge": "11",
         "shortDescription": null,
         "fullDescription": null,
@@ -1107,8 +1125,8 @@
     {
         "title": "Python Autocorrect",
         "myAge": "11",
-        "shortDescription": null,
-        "fullDescription": null,
+        "shortDescription": "This program uses a list of english words and nltk's 'edit_distance' function to autocorrect misspelled words in user input.",
+        "fullDescription": "This program uses a list of english words and nltk's 'edit_distance' function to autocorrect misspelled words in user input.",
         "images": [
             "/static/Media/images/projects/autocorrect.png",
             "/static/Media/images/projects/autocorrect-2.png"
