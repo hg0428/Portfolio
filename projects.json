@@ -346,7 +346,7 @@
         "title": "Tricky Really 2",
         "myAge": "13-15",
         "shortDescription": null,
-        "fullDescription": "This game won honorable mention in the #MadeWithReplit competition.",
+        "fullDescription": "This game is the second version of the game that won honorable mention in the Replit Kajam competition. You can see the original version below. This version was updated to include new levels, profiles, stats, a better leaderboard system, and more.",
         "images": [
             "/static/Media/images/projects/tricky-really-2.png",
             "/static/Media/images/projects/tricky-really-2-wide.png"
@@ -496,7 +496,7 @@
         "title": "Never Too Spicy",
         "myAge": "14",
         "shortDescription": null,
-        "fullDescription": "",
+        "fullDescription": "A game I made for the #MadeWithReplit game competition. My game didn't win, but it did have the most upvotes. It was quite buggy. It was a team competition, yet I was working alone, but still did pretty decently.",
         "images": [
             "/static/Media/images/projects/never-too-spicy.png"
         ],
@@ -600,7 +600,7 @@
         "title": "Tricky Really",
         "myAge": "13",
         "shortDescription": null,
-        "fullDescription": null,
+        "fullDescription": "This game won honorable mention in the #MadeWithReplit competition. It's a game of tricks, riddles, and puzzles.",
         "images": [
             "/static/Media/images/projects/tricky-really-1.png"
         ],
