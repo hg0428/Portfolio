@@ -1,5 +1,27 @@
 [
     {
+        "title": "MAR-PS",
+        "myAge": "16",
+        "shortDescription": "Multi-Agent Reasoning Problem Solver. A Python library where you can make teams of AIs that work together.",
+        "fullDescription": "Multi-Agent Reasoning Problem Solver. A Python library where you can make teams of AIs that work together.",
+        "linesOfCode": "about 900",
+        "images": [
+            "/static/Media/images/projects/mar-ps-img1.png"
+        ],
+        "frontImage": "/static/Media/images/projects/mar-ps-img1.png",
+        "tags": [
+            "ai",
+            "python",
+            "local-ai",
+            "ollama",
+            "openai",
+            "LLM",
+            "LLMs"
+        ],
+        "link": "https://github.com/hg0428/Mar-PS",
+        "code": "https://github.com/hg0428/Mar-PS"
+    },
+    {
         "title": "Aardvark 1.0 Compiler",
         "myAge": "14-16",
         "shortDescription": "This is a programming language I worked on with the rest of the 5-member Aardvark development team. The compiler is unfinished and is still being worked on. This is an active project.",
