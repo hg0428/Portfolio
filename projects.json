@@ -107,6 +107,28 @@
         "linesOfCode": "about 4,600"
     },
     {
+        "title": "New Profile Page",
+        "myAge": "15-16",
+        "shortDescription": "This very website right here.",
+        "fullDescription": "This very website right here.",
+        "images": [
+            "/static/Media/images/projects/new-profile-page.jpeg"
+        ],
+        "frontImage": "/static/Media/images/projects/new-profile-page.jpeg",
+        "tags": [
+            "html",
+            "css",
+            "js",
+            "bun.js",
+            "profile",
+            "portfolio",
+            "projects"
+        ],
+        "link": "https://hgouge.vercel.app/",
+        "code": "https://github.com/hg0428/Portfolio",
+        "youtube": null
+    },
+    {
         "title": "A.C.T.S. Biblical Training Center Website",
         "myAge": "15",
         "shortDescription": "I was on the team that made this. I did the course and lessons cards, and the Install PWA prompt myself, but for the rest I used a combination of HTML/CSS/JS and the website builder.",
@@ -133,28 +155,6 @@
         "link": "https://actsbtc.com/",
         "code": null,
         "youtube": "https://www.youtube.com/watch?v=4oQMUskDv5w"
-    },
-    {
-        "title": "New Profile Page",
-        "myAge": "15-16",
-        "shortDescription": "This very website right here.",
-        "fullDescription": "This very website right here.",
-        "images": [
-            "/static/Media/images/projects/new-profile-page.jpeg"
-        ],
-        "frontImage": "/static/Media/images/projects/new-profile-page.jpeg",
-        "tags": [
-            "html",
-            "css",
-            "js",
-            "bun.js",
-            "profile",
-            "portfolio",
-            "projects"
-        ],
-        "link": "https://hgouge.vercel.app/",
-        "code": "https://github.com/hg0428/Portfolio",
-        "youtube": null
     },
     {
         "title": "EncryptoChat",
