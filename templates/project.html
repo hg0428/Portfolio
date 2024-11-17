@@ -1,71 +1,112 @@
 <!DOCTYPE html>
 <html data-theme="dark">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Hudson Gouge - {{project.title}}</title>
+		<link href="/static/CSS/style.css?v=2" rel="stylesheet" type="text/css" />
+		<link
+			href="/static/CSS/profile-icons.css?v=2"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link href="/static/CSS/neumorphism.css" rel="stylesheet" type="text/css" />
+		<link href="/static/CSS/project.css" rel="stylesheet" type="text/css" />
+		{#
+		<meta
+			name="theme-color"
+			media="(prefers-color-scheme: light)"
+			content="#e0e0e0"
+		/>
+		#}
+		<meta
+			name="theme-color"
+			media="(prefers-color-scheme: dark)"
+			content="#333333"
+		/>
+		<meta name="description" content="{{project.shortDescription}}" />
+	</head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Hudson Gouge - {{project.title}}</title>
-  <link href="/static/CSS/style.css?v=2" rel="stylesheet" type="text/css" />
-  <link href="/static/CSS/profile-icons.css?v=2" rel="stylesheet" type="text/css" />
-  <link href="/static/CSS/neumorphism.css" rel="stylesheet" type="text/css" />
-  <link href="/static/CSS/project.css" rel="stylesheet" type="text/css" />
-  {# <meta name="theme-color" media="(prefers-color-scheme: light)" content="#e0e0e0" /> #}
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#333333" />
-</head>
-
-<body>
-  <nav aria-labelledby="primary-navigation" class="horizontal-full" id="topbar">
-    <a class="invisilink title-text" href="/">Hudson Gouge</a>
-    <menu class="compressed large-screen-only">
-      <a class="invisilink" href="/#skills">Skills</a>
-      <a class="invisilink" href="/#projects">Projects</a>
-      <a class="invisilink" href="/#contact">Contact</a>
-      <a class="invisilink" href="/">About</a>
-    </menu>
-    <div class="small-screen-only" id="main-floating-menu-wrapper">
-      <img class="hamb3urger" src="/static/Media/images/hamburger.svg" alt="hamburger menu" width="30" height="30" />
-      <div class="floating-menu" id="main-floating-menu">
-        <a class="invisilink" href="/#skills">Skills</a>
-        <a class="invisilink" href="/#projects">Projects</a>
-        <a class="invisilink" href="/#contact">Contact</a>
-        <a class="invisilink" href="/">About</a>
-      </div>
-    </div>
-  </nav>
-  <div class="project-info">
-    <div class="project-images gallery" id="image-gallery">
-      {%for image in project.images%}
-      <img class="project-image gallery_item" src="{{image}}" alt="project image" />
-      {%endfor%}
-    </div>
-  <h1 class="project-title">{{project.title}}</h1>
-  <div id="project-links">
-    {% if project.link %}
-      <div class="text-center"><a href="{{project.link}}" target="_blank" rel="noopener noreferrer">Visit</a></div>
-    {%endif%}
-  {% if project.code %}
-    <div class="text-center"><a href="{{project.code}}" target="_blank" rel="noopener noreferrer">Code</a></div>
-  {%endif%}
-  </div>
-    {% if project.myAge %}
-    <div class="card-my-age">My Age: <span class="age">{{project.myAge}}</span></div>
-    {%endif%}
-    {% if project.linesOfCode %}
-    <div class="card-lines">Lines of Code: <span class="lines">{{project.linesOfCode}}</span></div>
-    {%endif%}
-  {% if project.youtube %}
-    <iframe width="560" height="315" src="{{project.youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  {%endif%}
-  {% if project.fullDescription %}
-  <p class="project-description">{{project.fullDescription | safe}}</p>
-  {%else%}
-    <p class="project-description">{{project.shortDescription | safe}}</p>
-    {%endif%}
-  </div>
-  <footer>
-    © 2024 Hudson Gouge
-  </footer>
-  <script src="/static/Javascript/script.js"></script>
-</body>
-
+	<body>
+		<nav
+			aria-labelledby="primary-navigation"
+			class="horizontal-full"
+			id="topbar"
+		>
+			<a class="invisilink title-text" href="/">Hudson Gouge</a>
+			<menu class="compressed large-screen-only">
+				<a class="invisilink" href="/#skills">Skills</a>
+				<a class="invisilink" href="/#projects">Projects</a>
+				<a class="invisilink" href="/#contact">Contact</a>
+				<a class="invisilink" href="/">About</a>
+			</menu>
+			<div class="small-screen-only" id="main-floating-menu-wrapper">
+				<img
+					class="hamb3urger"
+					src="/static/Media/images/hamburger.svg"
+					alt="hamburger menu"
+					width="30"
+					height="30"
+				/>
+				<div class="floating-menu" id="main-floating-menu">
+					<a class="invisilink" href="/#skills">Skills</a>
+					<a class="invisilink" href="/#projects">Projects</a>
+					<a class="invisilink" href="/#contact">Contact</a>
+					<a class="invisilink" href="/">About</a>
+				</div>
+			</div>
+		</nav>
+		<div class="project-info">
+			<div class="project-images gallery" id="image-gallery">
+				{%for image in project.images%}
+				<img
+					class="project-image gallery_item"
+					src="{{image}}"
+					alt="project image"
+				/>
+				{%endfor%}
+			</div>
+			<h1 class="project-title">{{project.title}}</h1>
+			<div id="project-links">
+				{% if project.link %}
+				<div class="text-center">
+					<a href="{{project.link}}" target="_blank" rel="noopener noreferrer"
+						>Visit</a
+					>
+				</div>
+				{%endif%} {% if project.code %}
+				<div class="text-center">
+					<a href="{{project.code}}" target="_blank" rel="noopener noreferrer"
+						>Code</a
+					>
+				</div>
+				{%endif%}
+			</div>
+			{% if project.myAge %}
+			<div class="card-my-age">
+				My Age: <span class="age">{{project.myAge}}</span>
+			</div>
+			{%endif%} {% if project.linesOfCode %}
+			<div class="card-lines">
+				Lines of Code: <span class="lines">{{project.linesOfCode}}</span>
+			</div>
+			{%endif%} {% if project.youtube %}
+			<iframe
+				width="560"
+				height="315"
+				src="{{project.youtube}}"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			></iframe>
+			{%endif%} {% if project.fullDescription %}
+			<p class="project-description">{{project.fullDescription | safe}}</p>
+			{%else%}
+			<p class="project-description">{{project.shortDescription | safe}}</p>
+			{%endif%}
+		</div>
+		<footer>© 2024 Hudson Gouge</footer>
+		<script src="/static/Javascript/script.js"></script>
+	</body>
 </html>

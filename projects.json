@@ -1,5 +1,26 @@
 [
     {
+        "title": "Emerge-Gen-Z",
+        "myAge": "16",
+        "shortDescription": "Website for a Christian retreat for Gen Z. Built with Nunjucks, SCSS, and TypeScript. Bundled with Webpack. Hosted on Vercel.",
+        "fullDescription": "Website for a Christian retreat for Gen Z. Built with Nunjucks, SCSS, and TypeScript. Bundled with Webpack. Hosted on Vercel.",
+        "linesOfCode": "about 900",
+        "images": [
+            "/static/Media/images/projects/emerge-gen-z.png"
+        ],
+        "frontImage": "/static/Media/images/projects/emerge-gen-z.png",
+        "tags": [
+            "website",
+            "html",
+            "css",
+            "js",
+            "typescript",
+            "nunjucks",
+            "scss"
+        ],
+        "link": "https://emerge-gen-z.com"
+    },
+    {
         "title": "MAR-PS",
         "myAge": "16",
         "shortDescription": "Multi-Agent Reasoning Problem Solver. A Python library where you can make teams of AIs that work together.",
