@@ -1,67 +1,96 @@
 <!DOCTYPE html>
 <html data-theme="dark">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Hudson Gouge - Python Autocorrect</title>
+		<link href="/static/CSS/style.css?v=2" rel="stylesheet" type="text/css" />
+		<link
+			href="/static/CSS/profile-icons.css?v=2"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link href="/static/CSS/neumorphism.css" rel="stylesheet" type="text/css" />
+		<link href="/static/CSS/project.css" rel="stylesheet" type="text/css" />
+		
+		<meta
+			name="theme-color"
+			media="(prefers-color-scheme: dark)"
+			content="#333333"
+		/>
+		<meta name="description" content="This program uses a list of english words and nltk&#39;s &#39;edit_distance&#39; function to autocorrect misspelled words in user input." />
+	</head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Hudson Gouge - Python Autocorrect</title>
-  <link href="/static/CSS/style.css?v=2" rel="stylesheet" type="text/css" />
-  <link href="/static/CSS/profile-icons.css?v=2" rel="stylesheet" type="text/css" />
-  <link href="/static/CSS/neumorphism.css" rel="stylesheet" type="text/css" />
-  <link href="/static/CSS/project.css" rel="stylesheet" type="text/css" />
-  
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#333333" />
-</head>
-
-<body>
-  <nav aria-labelledby="primary-navigation" class="horizontal-full" id="topbar">
-    <a class="invisilink title-text" href="/">Hudson Gouge</a>
-    <menu class="compressed large-screen-only">
-      <a class="invisilink" href="/#skills">Skills</a>
-      <a class="invisilink" href="/#projects">Projects</a>
-      <a class="invisilink" href="/#contact">Contact</a>
-      <a class="invisilink" href="/">About</a>
-    </menu>
-    <div class="small-screen-only" id="main-floating-menu-wrapper">
-      <img class="hamb3urger" src="/static/Media/images/hamburger.svg" alt="hamburger menu" width="30" height="30" />
-      <div class="floating-menu" id="main-floating-menu">
-        <a class="invisilink" href="/#skills">Skills</a>
-        <a class="invisilink" href="/#projects">Projects</a>
-        <a class="invisilink" href="/#contact">Contact</a>
-        <a class="invisilink" href="/">About</a>
-      </div>
-    </div>
-  </nav>
-  <div class="project-info">
-    <div class="project-images gallery" id="image-gallery">
-      
-      <img class="project-image gallery_item" src="/static/Media/images/projects/autocorrect.png" alt="project image" />
-      
-      <img class="project-image gallery_item" src="/static/Media/images/projects/autocorrect-2.png" alt="project image" />
-      
-    </div>
-  <h1 class="project-title">Python Autocorrect</h1>
-  <div id="project-links">
-    
-      <div class="text-center"><a href="https://replit.com/@hg0428/autocorrect" target="_blank" rel="noopener noreferrer">Visit</a></div>
-    
-  
-    <div class="text-center"><a href="https://replit.com/@hg0428/autocorrect" target="_blank" rel="noopener noreferrer">Code</a></div>
-  
-  </div>
-    
-    <div class="card-my-age">My Age: <span class="age">11</span></div>
-    
-    
-  
-  
-  <p class="project-description">This program uses a list of english words and nltk's 'edit_distance' function to autocorrect misspelled words in user input.</p>
-  
-  </div>
-  <footer>
-    © 2024 Hudson Gouge
-  </footer>
-  <script src="/static/Javascript/script.js"></script>
-</body>
-
+	<body>
+		<nav
+			aria-labelledby="primary-navigation"
+			class="horizontal-full"
+			id="topbar"
+		>
+			<a class="invisilink title-text" href="/">Hudson Gouge</a>
+			<menu class="compressed large-screen-only">
+				<a class="invisilink" href="/#skills">Skills</a>
+				<a class="invisilink" href="/#projects">Projects</a>
+				<a class="invisilink" href="/#contact">Contact</a>
+				<a class="invisilink" href="/">About</a>
+			</menu>
+			<div class="small-screen-only" id="main-floating-menu-wrapper">
+				<img
+					class="hamb3urger"
+					src="/static/Media/images/hamburger.svg"
+					alt="hamburger menu"
+					width="30"
+					height="30"
+				/>
+				<div class="floating-menu" id="main-floating-menu">
+					<a class="invisilink" href="/#skills">Skills</a>
+					<a class="invisilink" href="/#projects">Projects</a>
+					<a class="invisilink" href="/#contact">Contact</a>
+					<a class="invisilink" href="/">About</a>
+				</div>
+			</div>
+		</nav>
+		<div class="project-info">
+			<div class="project-images gallery" id="image-gallery">
+				
+				<img
+					class="project-image gallery_item"
+					src="/static/Media/images/projects/autocorrect.png"
+					alt="project image"
+				/>
+				
+				<img
+					class="project-image gallery_item"
+					src="/static/Media/images/projects/autocorrect-2.png"
+					alt="project image"
+				/>
+				
+			</div>
+			<h1 class="project-title">Python Autocorrect</h1>
+			<div id="project-links">
+				
+				<div class="text-center">
+					<a href="https://replit.com/@hg0428/autocorrect" target="_blank" rel="noopener noreferrer"
+						>Visit</a
+					>
+				</div>
+				 
+				<div class="text-center">
+					<a href="https://replit.com/@hg0428/autocorrect" target="_blank" rel="noopener noreferrer"
+						>Code</a
+					>
+				</div>
+				
+			</div>
+			
+			<div class="card-my-age">
+				My Age: <span class="age">11</span>
+			</div>
+			   
+			<p class="project-description">This program uses a list of english words and nltk's 'edit_distance' function to autocorrect misspelled words in user input.</p>
+			
+		</div>
+		<footer>© 2024 Hudson Gouge</footer>
+		<script src="/static/Javascript/script.js"></script>
+	</body>
 </html>

@@ -21,6 +21,30 @@
         "link": "https://emerge-gen-z.com"
     },
     {
+        "title": "Writing In Color",
+        "myAge": "16",
+        "shortDescription": "Complete with a website builder, a secure authentication system, HTTP/2.0, Post Quantum Cryptography, Passkey Support, and more. I worked on the backend.",
+        "fullDescription": "Features:\n- Website builder including the creation of elements, styling options, nice animations, and more\n- Secure authentication system with JWTs and hashed+salted passwords\n- HTTP/2.0\n- Post Quantum Cryptography\n- Passkey Support\n- Hosted on AWS\n- Database management system\n- Account settings with the ability to add and remove emails, passkeys, or change your password\nI worked on the backend.",
+        "linesOfCode": "about 9,000",
+        "tags": [
+            "website",
+            "html",
+            "css",
+            "js",
+            "typescript",
+            "nunjucks",
+            "scss",
+            "bun.js",
+            "fastify",
+            "passkeys",
+            "authentication",
+            "post quantum cryptography",
+            "http/2.0"
+        ],
+        "link": "https://writingincolor.org",
+        "youtube": "https://www.youtube.com/embed/hegBuuvEIN8?si=pk-Qs5PBeFmIQMoZ"
+    },
+    {
         "title": "MAR-PS",
         "myAge": "16",
         "shortDescription": "Multi-Agent Reasoning Problem Solver. A Python library where you can make teams of AIs that work together.",
