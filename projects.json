@@ -2,8 +2,8 @@
     {
         "title": "LLM Probability Visualizer",
         "myAge": "16",
-        "shortDescription": "",
-        "fullDescription": "",
+        "shortDescription": "A system allowing you to visualize how LLMs really work on the inside, seeing the probability of each token generated. The system also includes custom implementations of various sampling systems, including DRY, XTC, temperature, and many many more.",
+        "fullDescription": "A system allowing you to visualize how LLMs really work on the inside, seeing the probability of each token generated. The system also includes custom implementations of various sampling systems, including DRY, XTC, temperature, and many many more.",
         "linesOfCode": "about 2,000",
         "tags": [
             "web app",
@@ -44,8 +44,8 @@
     {
         "title": "Writing In Color",
         "myAge": "16",
-        "shortDescription": "Complete with a website builder, a secure authentication system, HTTP/2.0, Post Quantum Cryptography, Passkey Support, and more. I worked on the backend.",
-        "fullDescription": "Features:\n- Website builder including the creation of elements, styling options, nice animations, and more\n- Secure authentication system with JWTs and hashed+salted passwords\n- HTTP/2.0\n- Post Quantum Cryptography\n- Passkey Support\n- Hosted on AWS\n- Database management system\n- Account settings with the ability to add and remove emails, passkeys, or change your password\nI worked on the backend.",
+        "shortDescription": "Complete with a website builder, a secure authentication system, HTTP/2.0, Post Quantum Cryptography, Passkey Support, and more. I worked on the backend and the website builder system, including animations (which are very nice). I did not work on the main page design.",
+        "fullDescription": "Features:\n- Website builder including the creation of elements, styling options, nice animations, and more\n- Secure authentication system with JWTs and hashed+salted passwords\n- HTTP/2.0\n- Post Quantum Cryptography\n- Passkey Support\n- Hosted on AWS\n- Database management system\n- Account settings with the ability to add and remove emails, passkeys, or change your password\nI worked on the backend and the website builder system, including animations (which are very nice). I did not work on the main page design.",
         "linesOfCode": "about 9,000",
         "tags": [
             "website",
