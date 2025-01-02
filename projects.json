@@ -1,5 +1,26 @@
 [
     {
+        "title": "LLM Probability Visualizer",
+        "myAge": "16",
+        "shortDescription": "",
+        "fullDescription": "",
+        "linesOfCode": "about 2,000",
+        "tags": [
+            "web app",
+            "html",
+            "css",
+            "js",
+            "python",
+            "flask",
+            "ai",
+            "local-ai",
+            "LLM",
+            "math"
+        ],
+        "link": "https://github.com/hg0428/LLM-probability-visualization",
+        "youtube": "https://www.youtube.com/embed/3JiXz7yYgUE?si=EQW_gAUNI398t-51"
+    },
+    {
         "title": "Emerge-Gen-Z",
         "myAge": "16",
         "shortDescription": "Website for a Christian retreat for Gen Z. Built with Nunjucks, SCSS, and TypeScript. Bundled with Webpack. Hosted on Vercel.",
