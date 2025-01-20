@@ -581,6 +581,29 @@
         "youtube": null
     },
     {
+        "title": "Sticky Art",
+        "myAge": "14",
+        "shortDescription": null,
+        "fullDescription": "A website I made for a business class where we made stickers.",
+        "images": [
+            "/static/Media/images/projects/sticky-art.png",
+            "/static/Media/images/projects/sticky-art-full.png"
+        ],
+        "frontImage": "/static/Media/images/projects/sticky-art.png",
+        "tags": [
+            "javascript",
+            "html",
+            "css",
+            "node.js",
+            "website",
+            "UI",
+            "design",
+            "multilingual"
+        ],
+        "link": "https://replit.com/@hg0428/StickyArt",
+        "code": "https://replit.com/@hg0428/StickyArt"
+    },
+    {
         "title": "Never Too Spicy",
         "myAge": "14",
         "shortDescription": null,
