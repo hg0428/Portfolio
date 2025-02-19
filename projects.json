@@ -5,6 +5,12 @@
         "shortDescription": "Holistic Online Security Scanner Minimum Viable Product. I built this for Fortis Cyber Defense. Enterprise-grade security scanning and automation platform for comprehensive infrastructure protection. It includes...",
         "fullDescription": "Holistic Online Security Scanner Minimum Viable Product.I built this for Fortis Cyber Defense. Enterprise-grade security scanning and automation platform for comprehensive infrastructure protection. It includes a login system, multi-user support, organizations, email confirmation, in-app notifications, email notifications, projects, domain verification, project dashboard, settings, Post Quantum Cryptographically Secure JWTs (falcon), port scanning, and more...",
         "linesOfCode": "14,888",
+        "images": [
+            "/static/Media/images/projects/hoss-create-org.jpeg",
+            "/static/Media/images/projects/hoss-settings.jpeg",
+            "/static/Media/images/projects/hoss-home.jpeg"
+        ],
+        "frontImage": "/static/Media/images/projects/hoss-create-org.jpeg",
         "tags": [
             "web app",
             "html",
