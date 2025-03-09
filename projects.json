@@ -29,6 +29,22 @@
         "link": "https://gethoss.io/"
     },
     {
+        "title": "The Trial of Freedom: AI Regulation",
+        "myAge": "16",
+        "shortDescription": "An article I wrote on the regulation of Artificial Intelligence.",
+        "fullDescription": "An article I wrote on the regulation of Artificial Intelligence.",
+        "images": [],
+        "frontImage": null,
+        "tags": [
+            "ai",
+            "article",
+            "politics",
+            "regulation",
+            "artificial intelligence"
+        ],
+        "link": "https://medium.com/@hudson.gouge/the-trial-of-freedom-ai-regulation-aa98141c76b8"
+    },
+    {
         "title": "LLM Probability Visualizer",
         "myAge": "16",
         "shortDescription": "A system allowing you to visualize how LLMs really work on the inside, seeing the probability of each token generated. The system also includes custom implementations of various sampling systems, including DRY, XTC, temperature, and many many more.",
