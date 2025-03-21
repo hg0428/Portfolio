@@ -33,8 +33,10 @@
         "myAge": "16",
         "shortDescription": "An article I wrote on the regulation of Artificial Intelligence.",
         "fullDescription": "An article I wrote on the regulation of Artificial Intelligence.",
-        "images": [],
-        "frontImage": null,
+        "images": [
+            "/static/Media/images/projects/trial-of-freedom.png"
+        ],
+        "frontImage": "/static/Media/images/projects/trial-of-freedom.png",
         "tags": [
             "ai",
             "article",
