@@ -1,5 +1,26 @@
 [
     {
+        "title": "Chatter 70M",
+        "myAge": "16",
+        "shortDescription": "A 70M parameter LLM I pre-trained from scratch on my laptop following a Llama-3 architecture and using a Llama-2 tokenizer. It was trained on 705.8mb of uncompressed text data from Discord and other sources. The model generalized and is able to chat like a random person on Discord. But it is very very dumb.",
+        "fullDescription": "A 70M parameter LLM I pre-trained from scratch on my laptop following a Llama-3 architecture and using a Llama-2 tokenizer. It was trained on 705.8mb of uncompressed text data from Discord and other sources. The model generalized and is able to chat like a random person on Discord. But it is very very dumb.",
+        "images": [],
+        "frontImage": null,
+        "tags": [
+            "ai",
+            "llm",
+            "pytorch",
+            "transformer",
+            "transformers",
+            "pretraining",
+            "ai training",
+            "training"
+        ],
+        "link": "https://huggingface.co/hudsongouge/Chatter-70M",
+        "code": null,
+        "youtube": null
+    },
+    {
         "title": "HOSS",
         "myAge": "16",
         "shortDescription": "Holistic Online Security Scanner Minimum Viable Product. I built this for Fortis Cyber Defense. Enterprise-grade security scanning and automation platform for comprehensive infrastructure protection. It includes...",
