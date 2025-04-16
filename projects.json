@@ -1,5 +1,24 @@
 [
     {
+        "title": "Time Accountability",
+        "myAge": "16",
+        "shortDescription": "An application that lets you log your activities hour by hour, along with daily notes, and summaries. It also has an AI analyzation system powered by Ollama. This is unfinished and just a prototype for now. Built on WindSurf in collaboration with Claude and Gemini AI.",
+        "fullDescription": "An application that lets you log your activities hour by hour, along with daily notes, and summaries. It also has an AI analyzation system powered by Ollama. This is unfinished and just a prototype for now.",
+        "images": [
+            "/static/Media/images/projects/accountability.jpeg"
+        ],
+        "frontImage": "/static/Media/images/projects/accountability.jpeg",
+        "tags": [
+            "python",
+            "PyQt6",
+            "app",
+            "accountability"
+        ],
+        "link": "https://github.com/hg0428/Accountability",
+        "code": "https://github.com/hg0428/Accountability",
+        "youtube": null
+    },
+    {
         "title": "Copper Scroll Project Website",
         "myAge": "16",
         "shortDescription": "The Copper Scroll Project is a group determined to recover the items of the Copper Scroll and return them to the nation of Israel. Among these are many treasure of ancient Israel. I built this website using a modular article system, SCSS, TypeScript, and HTML with nunjucks templating.",
