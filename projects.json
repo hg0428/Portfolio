@@ -1,5 +1,28 @@
 [
     {
+        "title": "Copper Scroll Project Website",
+        "myAge": "16",
+        "shortDescription": "The Copper Scroll Project is a group determined to recover the items of the Copper Scroll and return them to the nation of Israel. Among these are many treasure of ancient Israel. I built this website using a modular article system, SCSS, TypeScript, and HTML with nunjucks templating.",
+        "fullDescription": "The Copper Scroll Project is a group determined to recover the items of the Copper Scroll and return them to the nation of Israel. Among these are many treasure of ancient Israel. I built this website using a modular article system, SCSS, TypeScript, and HTML with nunjucks templating. Going live soon.",
+        "images": [
+            "/static/Media/images/projects/csp.png"
+        ],
+        "frontImage": "/static/Media/images/projects/csp.png",
+        "tags": [
+            "ts",
+            "scss",
+            "css",
+            "html",
+            "nunjucks",
+            "design",
+            "web design",
+            "website"
+        ],
+        "link": "https://copper-scroll-project.vercel.app",
+        "code": null,
+        "youtube": null
+    },
+    {
         "title": "Chatter 70M",
         "myAge": "16",
         "shortDescription": "A 70M parameter LLM I pre-trained from scratch on my laptop following a Llama-3 architecture and using a Llama-2 tokenizer. It was trained on 705.8mb of uncompressed text data from Discord and other sources. The model generalized and is able to chat like a random person on Discord. But it is very very dumb.",
