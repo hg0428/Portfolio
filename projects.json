@@ -1,5 +1,95 @@
 [
     {
+        "title": "DAT-Byte-Small",
+        "myAge": "17",
+        "shortDescription": "A 200M-parameter byte-level Differential Attention Transformer I trained from scratch on an RTX 5090. Decoder-only, 28 layers, 768 hidden, RoPE, pre-LN, and a 259-token byte-level vocabulary. Trained on Gutenberg English, OpenDiscord, and public-domain Bible translations for 31,200 steps across an estimated 5–10B tokens.",
+        "fullDescription": "DAT Byte is a family of byte-level Differential Attention Transformers trained from scratch on an RTX 5090. This is the smallest in the family at ~200M parameters. Decoder-only architecture with RoPE, pre-layernorm, 768 hidden, 3072 FFN, 12 attention heads, 28 layers, and a 259-token byte-level vocabulary (256 bytes + 3 specials). Trained on Gutenberg English, OpenDiscord (ChatML-formatted Discord dumps), proprietary Discord data, and a diverse set of public-domain English Bible translations. 31,200 steps, max sequence length 2048, ~5–10B tokens seen during training. Differential Attention from Ye et al. (2024) reduces attention noise, which is especially useful at byte granularity.<br><br>Two larger siblings were also in progress: DAT-Byte Medium (350M) completed training, and DAT-Byte Large (700M) was mid-training. Both were discontinued before publication after I identified an issue in the architecture implementation, compounded by underwhelming benchmark performance relative to similarly sized models. The family may be revisited once the implementation issue is resolved.",
+        "images": [
+            "https://huggingface.co/hudsongouge/DAT-Byte-Small/resolve/main/dat_byte_banner_highres.png"
+        ],
+        "frontImage": "https://huggingface.co/hudsongouge/DAT-Byte-Small/resolve/main/dat_byte_banner_highres.png",
+        "tags": [
+            "ai",
+            "llm",
+            "pytorch",
+            "transformer",
+            "differential attention",
+            "byte-level",
+            "pretraining",
+            "ai training",
+            "rtx 5090",
+            "from scratch"
+        ],
+        "link": "https://huggingface.co/hudsongouge/DAT-Byte-Small",
+        "code": null,
+        "youtube": null
+    },
+    {
+        "title": "MMLU-NGRAM",
+        "myAge": "17",
+        "shortDescription": "A robustness benchmark I built and published that rewrites MMLU questions into character n-grams (n=1 to n=4) to test how well LLMs read unconventional, hard-to-parse inputs. Benchmarked Grok-3-mini, GPT-4.1, Gemini 2.5 Flash, Qwen3-235B, and others. Grok-3-mini led with 87%+ across all n; most models dropped 20–30 points from the original.",
+        "fullDescription": "MMLU-NGRAM is a robustness benchmark I built and published on Hugging Face. It takes the full 14,042-question MMLU test set and rewrites each question into character n-grams of sizes 1 through 4 — separated by spaces, with words shorter than n left intact. The goal is to evaluate LLM performance on unconventional, hard-to-read inputs. Benchmarks were run on a random 1,500-sample subset across Grok-3-mini, GPT-4.1, GPT-4.1-nano, Gemini 2.5 Flash, Qwen3-4B, Qwen3-235B-A22B, and SmolLM3-3B. Grok-3-mini (thinking) led with 87%+ across every n; most other models dropped 20–30 accuracy points from the original baseline, revealing brittleness in tokenization and reading robustness.",
+        "images": [
+            "https://huggingface.co/datasets/hudsongouge/MMLU-NGRAM/resolve/main/benchmarks-chart.png"
+        ],
+        "frontImage": "https://huggingface.co/datasets/hudsongouge/MMLU-NGRAM/resolve/main/benchmarks-chart.png",
+        "tags": [
+            "ai",
+            "llm",
+            "benchmark",
+            "evaluation",
+            "robustness",
+            "mmlu",
+            "dataset",
+            "hugging face"
+        ],
+        "link": "https://huggingface.co/datasets/hudsongouge/MMLU-NGRAM",
+        "code": null,
+        "youtube": null
+    },
+    {
+        "title": "TinyBookyLLM",
+        "myAge": "17",
+        "shortDescription": "A 65M-parameter Llama-3-style LLM I trained on my laptop in about 30 minutes on ~32M tokens of Gutenberg English. 9 layers, 640 hidden, 8 Q / 2 KV heads (GQA), RoPE, 16k BPE tokenizer. It writes surprisingly coherent Victorian-sounding prose for a model this small.",
+        "fullDescription": "TinyBookyLLM is a 65M-parameter Llama-3-architecture LLM trained on my laptop in roughly half an hour using only ~5GB of memory. Trained on ~32M tokens of Gutenberg English with a 16k BPE tokenizer. Architecture: 9 layers, 640 hidden size, 2048 intermediate, 8 query heads, 2 KV heads (GQA), RoPE, SiLU, 512 sequence length. 16,000 steps, peak LR 5e-5, cosine decay, no warmup. The output sounds like a convincingly coherent pastiche of 19th-century English prose — a fun demonstration of how much style a very small model can absorb from a focused corpus.",
+        "images": [],
+        "frontImage": null,
+        "tags": [
+            "ai",
+            "llm",
+            "pytorch",
+            "llama",
+            "transformer",
+            "pretraining",
+            "ai training",
+            "from scratch",
+            "gqa"
+        ],
+        "link": "https://huggingface.co/hudsongouge/TinyBookyLLM",
+        "code": null,
+        "youtube": null
+    },
+    {
+        "title": "OpenDiscord",
+        "myAge": "16",
+        "shortDescription": "A public dataset of content extracted from many Discord servers, ~322MB, formatted in ChatML with usernames as speaker roles. Designed for training LLMs on natural multi-party dialogue. Used as a core training source for my DAT-Byte model family.",
+        "fullDescription": "OpenDiscord is a public Hugging Face dataset I released containing content extracted from many Discord servers — roughly 322MB of conversation data. It is formatted in ChatML with usernames serving as speaker roles, which lets language models learn natural dialogue structure, turn-taking, and the tone of real multi-party chat. It spans many topics, including a substantial amount of code discussion, giving models basic exposure to common programming-language syntax patterns. OpenDiscord serves as one of the primary training sources for my DAT-Byte model family.",
+        "images": [],
+        "frontImage": null,
+        "tags": [
+            "ai",
+            "dataset",
+            "llm",
+            "training data",
+            "discord",
+            "chatml",
+            "hugging face"
+        ],
+        "link": "https://huggingface.co/datasets/hudsongouge/Open-Discord",
+        "code": null,
+        "youtube": null
+    },
+    {
         "title": "Time Accountability",
         "myAge": "16",
         "shortDescription": "An application that lets you log your activities hour by hour, along with daily notes, and summaries. It also has an AI analyzation system powered by Ollama. This is unfinished and just a prototype for now. Built on WindSurf in collaboration with Claude and Gemini AI.",

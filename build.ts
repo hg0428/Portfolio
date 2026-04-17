@@ -1,32 +1,38 @@
 import { ClientRequest } from "http";
 
-const nunjucks = require('nunjucks');
-const fs = require('fs');
-const path = require('path');
+const nunjucks = require("nunjucks");
+const fs = require("fs");
+const path = require("path");
 
-let projects = JSON.parse(fs.readFileSync('projects.json', 'utf8'));
+let projects = JSON.parse(fs.readFileSync("projects.json", "utf8"));
+
+// Add encodedTitle for URL-safe linking
+projects = projects.map((project: any) => ({
+	...project,
+	encodedTitle: project.title.replaceAll(" ", "-"),
+}));
 
 // Render a file template with data
-nunjucks.render('templates/index.html', { projects }, function(err, res) {
-    if (err) {
-        console.error(err);
-    } else {
-        fs.writeFileSync('client/index.html', res);
-    }
+nunjucks.render("templates/index.html", { projects }, function (err, res) {
+	if (err) {
+		console.error(err);
+	} else {
+		fs.writeFileSync("client/index.html", res);
+	}
 });
 function makeDir(dir: string) {
-    if (!fs.existsSync(dir)) {
-        fs.mkdirSync(dir);
-    }
+	if (!fs.existsSync(dir)) {
+		fs.mkdirSync(dir);
+	}
 }
-makeDir("client/projects")
+makeDir("client/projects");
 for (let project of projects) {
-    nunjucks.render("templates/project.html", { project }, (err, res) => {
-        if (err) {
-            console.error(err);
-        } else {
-            let f = `client/projects/${project.title.replaceAll(" ", "%20")}.html`
-            fs.writeFileSync(f, res);
-        }
-    })
+	nunjucks.render("templates/project.html", { project }, (err, res) => {
+		if (err) {
+			console.error(err);
+		} else {
+			let f = `client/projects/${project.title.replaceAll(" ", "-")}.html`;
+			fs.writeFileSync(f, res);
+		}
+	});
 }
