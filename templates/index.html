@@ -127,15 +127,15 @@
       <a class="invisilink" href="/#about">About</a>
       <a class="invisilink" href="/#projects">Projects</a>
     </menu>
-    <div class="small-screen-only" id="main-floating-menu-wrapper">
-      <img class="hamb3urger" src="/static/Media/images/hamburger.svg" alt="hamburger menu" width="30" height="30" />
-      <div class="floating-menu" id="main-floating-menu">
-        <a class="invisilink" href="/">Home</a>
-        <a class="invisilink" href="/#about">About</a>
-        <a class="invisilink" href="/#projects">Projects</a>
-      </div>
-    </div>
-
+    <button class="nav-toggle small-screen-only" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+      <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
+  </nav>
+  <div class="nav-backdrop small-screen-only" aria-hidden="true"></div>
+  <nav class="nav-drawer small-screen-only" id="mobile-nav" aria-label="Mobile">
+    <a class="invisilink" href="/">Home</a>
+    <a class="invisilink" href="/#about">About</a>
+    <a class="invisilink" href="/#projects">Projects</a>
   </nav>
   <div id="main-content" class="main-section">
     <div class="left-main">
@@ -256,7 +256,7 @@
     © 2026 Hudson Gouge
   </footer>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <script src="/static/Javascript/script.js"></script>
+  <script src="/static/Javascript/script.js?v=2" defer></script>
   <script>
     // const typed = new Typed('#element', {
     //   strings: ["I am a programmer.", "I am a web developer.", "I am a fullstack engineer.", "I am a software developer."],
