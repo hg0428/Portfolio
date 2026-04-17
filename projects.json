@@ -1,5 +1,29 @@
 [
     {
+        "title": "Expressionizer",
+        "myAge": "17",
+        "shortDescription": "A Python library for symbolic math expression building, simplification, and step-by-step evaluation. Renders explanations in plain text and LaTeX, supports derivatives, integrals, and multivariate calculus, and ships with localization packs for 7 languages. I primarily use it to procedurally generate math training data with full solution traces.",
+        "fullDescription": "Expressionizer is a Python library for symbolic math expression building, simplification, and step-by-step evaluation. Unlike a typical CAS, it is designed around explainable algebraic transformation — every evaluation returns both a result and a rendered context tracing the steps, decomposition, and reasoning.<br><br>Core features include symbolic expression-tree primitives (<code>Symbol</code>, <code>Sum</code>, <code>Product</code>, <code>Power</code>, <code>FunctionCall</code>, <code>Equation</code>, <code>InEquality</code>), a rule-based calculus engine covering multivariate differentiation and definite/indefinite integrals, plain-text + LaTeX rendering, structured explanation output for downstream pipelines (<code>render_document()</code>, <code>render_json()</code>), calculator-mode tool-call placeholders for training workflows, and order-of-magnitude estimation to bound runaway traces on large numeric ops.<br><br>Built-in localization packs ship for English, Spanish, French, German, Korean, Hebrew, and Hebrew with niqqud, each validated for placeholder safety and English-leakage. <code>ExplanationProfile</code> allows per-call locale swaps, preset overlays (default, compact, plain, XML), and fine-grained template overrides for downstream rendering.<br><br>I primarily use Expressionizer for procedural generation of math training data — producing large datasets of problems paired with step-by-step solutions across multiple languages and formatting styles — but it is equally applicable to math tutoring tools, educational software, and any system that needs algebraic reasoning with human-readable traces. Published on PyPI, currently at 0.8.3 (pre-stable, tracking toward 1.0).",
+        "images": [],
+        "frontImage": null,
+        "tags": [
+            "python",
+            "library",
+            "symbolic math",
+            "cas",
+            "calculus",
+            "latex",
+            "ai training",
+            "procedural generation",
+            "localization",
+            "pypi",
+            "open source"
+        ],
+        "link": "https://pypi.org/project/expressionizer/",
+        "code": null,
+        "youtube": null
+    },
+    {
         "title": "DAT-Byte-Small",
         "myAge": "17",
         "shortDescription": "A 200M-parameter byte-level Differential Attention Transformer I trained from scratch on an RTX 5090. Decoder-only, 28 layers, 768 hidden, RoPE, pre-LN, and a 259-token byte-level vocabulary. Trained on Gutenberg English, OpenDiscord, and public-domain Bible translations for 31,200 steps across an estimated 5–10B tokens.",

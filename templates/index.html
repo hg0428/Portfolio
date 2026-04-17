@@ -68,60 +68,64 @@
     <div class="head" id="intro">
       <img src="/static/Media/images/photos/headshot.png" alt="Hudson Gouge" class="profile-photo" />
       <h1 id="name">Hudson Gouge</h1>
+      <a class="company-badge badge" href="https://projxon.ai" target="_blank" rel="noopener noreferrer">
+        <span class="company-badge-label">Founder</span>
+        <span class="company-badge-name">Projxon AI</span>
+      </a>
     </div>
     <div id="profile-cards">
       <a class="invisilink" target="_blank" rel="noopener noreferrer" href="https://github.com/hg0428">
-        <div class="profile-card" id="github-profile-card">
-          <img src="/static/Media/images/logos/github-mark.svg" alt="Github Logo" class="profile-icon" />
+        <div class="profile-card badge" id="github-profile-card">
+          <img src="/static/Media/images/icons/github-mark.svg" alt="Github Logo" class="profile-icon" />
           <div class="profile-card-content">hg0428</div>
         </div>
       </a>
       <a class="invisilink" target="_blank" rel="noopener noreferrer" href="https://replit.com/@hg0428">
-        <div class="profile-card" id="replit-profile-card">
-          <img src="/static/Media/images/logos/Replit_Logo_Symbol.svg" alt="Replit Logo" class="profile-icon" />
+        <div class="profile-card badge" id="replit-profile-card">
+          <img src="/static/Media/images/icons/Replit_Logo_Symbol.svg" alt="Replit Logo" class="profile-icon" />
           <div class="profile-card-content">hg0428</div>
         </div>
       </a>
       <a class="invisilink" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/hudson-gouge-24a843244/">
-        <div class="profile-card" id="linkedin-profile-card">
-          <img src="/static/Media/images/logos/LI-In-Bug.png" alt="LinkedIn Logo" class="profile-icon" />
+        <div class="profile-card badge" id="linkedin-profile-card">
+          <img src="/static/Media/images/icons/LI-In-Bug.png" alt="LinkedIn Logo" class="profile-icon" />
           <div class="profile-card-content">Hudson Gouge</div>
         </div>
       </a>
       <a class="invisilink" target="_blank" rel="noopener noreferrer" href="https://x.com/HudsonGouge">
-        <div class="profile-card" id="x-profile-card">
-          <img src="/static/Media/images/logos/x-logo-black.png" alt="X Logo" class="profile-icon" />
+        <div class="profile-card badge" id="x-profile-card">
+          <img src="/static/Media/images/icons/x-logo-black.png" alt="X Logo" class="profile-icon" />
           <div class="profile-card-content">HudsonGouge</div>
         </div>
       </a>
       <a class="invisilink" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCdTw7k9oLv6mlGuvq6UpJvA">
-        <div class="profile-card" id="youtube-profile-card">
-          <img src="/static/Media/images/logos/YouTube_full-color_icon_(2017).svg" alt="YouTube Logo"
+        <div class="profile-card badge" id="youtube-profile-card">
+          <img src="/static/Media/images/icons/YouTube_full-color_icon_(2017).svg" alt="YouTube Logo"
             class="profile-icon" />
           <div class="profile-card-content">Hudson Gouge</div>
         </div>
       </a>
       <a class="invisilink" target="_blank" rel="noopener noreferrer" href="https://discord.gg/KqhqnHrrZJ">
-        <div class="profile-card" id="discord-profile-card">
-          <img src="/static/Media/images/logos/discord-mark-blue.svg" alt="Discord Logo" class="profile-icon" />
+        <div class="profile-card badge" id="discord-profile-card">
+          <img src="/static/Media/images/icons/discord-mark-blue.svg" alt="Discord Logo" class="profile-icon" />
           <div class="profile-card-content">hudsong0</div>
         </div>
       </a>
+      <a class="invisilink" href="https://huggingface.co/hudsongouge/">
+          <div class="profile-card badge" id="huggingface-profile-card">
+            <img src="/static/Media/images/icons/huggingface.svg" alt="Hugging Face" class="profile-icon" />
+            <div class="profile-card-content">Hudson Gouge</div>
+          </div>
+        </a>
       <a class="invisilink" href="mailto:hudson.gouge@icloud.com">
-        <div class="profile-card" id="email-profile-card">
-          <img src="/static/Media/images/envelope-fill.svg" alt="Email" class="profile-icon" />
+        <div class="profile-card badge" id="email-profile-card">
+          <img src="/static/Media/images/icons/envelope-fill.svg" alt="Email" class="profile-icon" />
           <div class="profile-card-content">hudson.gouge@icloud.com</div>
         </div>
         <a class="invisilink" href="tel:+14236912822">
-          <div class="profile-card" id="phone-profile-card">
-            <img src="/static/Media/images/telephone-fill.svg" alt="Phone" class="profile-icon" />
-            <div class="profile-card-content">+14236912822</div>
-          </div>
-        </a>
-        <a class="invisilink" href="https://huggingface.co/hudsongouge/">
-          <div class="profile-card" id="phone-profile-card">
-            <img src="/static/Media/images/logos/huggingface.svg" alt="Hugging Face" class="profile-icon" />
-            <div class="profile-card-content">Hudson Gouge</div>
+          <div class="profile-card badge" id="phone-profile-card">
+            <img src="/static/Media/images/icons/telephone-fill.svg" alt="Phone" class="profile-icon" />
+            <div class="profile-card-content">+1 (423) 691-2822</div>
           </div>
         </a>
     </div>
@@ -150,7 +154,7 @@
     <h1>Projects</h1>
     <div id="projects-list-wrapper">
       {% for project in projects %}
-    <div class="card" onclick="window.location.href='/projects/{{project.encodedTitle}}.html'">
+    <div class="card badge" onclick="window.location.href='/projects/{{project.encodedTitle}}.html'">
       {% if project.frontImage %}
       <img class="card-main-image" src="{{project.frontImage}}" />
       {% elif project.youtube %}
