@@ -1,7 +1,6 @@
 .profile-card {
-	height: 30px;
-	line-height: 30px;
-	padding: 0;
+	line-height: 2rem;
+	padding: 2px;
 	margin: 0;
 	display: flex;
 	align-items: center;
@@ -12,7 +11,6 @@
 	overflow: hidden;
 	white-space: nowrap;
 	transition: 0.2s;
-	border: 1px solid black;
 }
 .profile-card:hover {
 	/* box-shadow: 5px 5px 10px var(--shadow-dark),
@@ -21,9 +19,12 @@
 }
 
 .profile-card .profile-icon {
-	width: 30px;
-	height: 30px;
-	background: var(--main-background-light);
+	width: 28px;
+	height: 28px;
+	box-sizing: border-box;
+	object-fit: contain;
+	padding: 4px;
+	flex-shrink: 0;
 	cursor: pointer;
 	color: var(--dark-text-color);
 }
@@ -55,7 +56,7 @@
 }
 
 #profile-cards {
-	margin-top: 50px;
+	margin-top: 2rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -64,33 +65,9 @@
 	width: 80%;
 }
 
-#github-profile-card img {
-	padding: 3px;
-}
-
-#linkedin-profile-card img {
-	width: 35px;
-	padding: 3px;
-}
-
-#youtube-profile-card img {
-	padding: 7px 3px;
-}
-
-#discord-profile-card img {
-	padding: 3px;
-}
-
-#email-profile-card img {
-	padding: 4px;
-}
-
-#phone-profile-card img {
-	padding: 5px;
-}
-#x-profile-card img {
-	padding: 4px;
-}
+/* Icons are tight-cropped at build time by scripts/normalize-icons.ts, so
+   no per-icon sizing overrides are needed — the base .profile-icon rule
+   above produces uniform optical sizing for every icon. */
 .card-my-age {
 	color: #666;
 	font-weight: 600;

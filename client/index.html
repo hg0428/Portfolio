@@ -68,60 +68,64 @@
     <div class="head" id="intro">
       <img src="/static/Media/images/photos/headshot.png" alt="Hudson Gouge" class="profile-photo" />
       <h1 id="name">Hudson Gouge</h1>
+      <a class="company-badge badge" href="https://projxon.ai" target="_blank" rel="noopener noreferrer">
+        <span class="company-badge-label">Founder</span>
+        <span class="company-badge-name">Projxon AI</span>
+      </a>
     </div>
     <div id="profile-cards">
       <a class="invisilink" target="_blank" rel="noopener noreferrer" href="https://github.com/hg0428">
-        <div class="profile-card" id="github-profile-card">
-          <img src="/static/Media/images/logos/github-mark.svg" alt="Github Logo" class="profile-icon" />
+        <div class="profile-card badge" id="github-profile-card">
+          <img src="/static/Media/images/icons/github-mark.svg" alt="Github Logo" class="profile-icon" />
           <div class="profile-card-content">hg0428</div>
         </div>
       </a>
       <a class="invisilink" target="_blank" rel="noopener noreferrer" href="https://replit.com/@hg0428">
-        <div class="profile-card" id="replit-profile-card">
-          <img src="/static/Media/images/logos/Replit_Logo_Symbol.svg" alt="Replit Logo" class="profile-icon" />
+        <div class="profile-card badge" id="replit-profile-card">
+          <img src="/static/Media/images/icons/Replit_Logo_Symbol.svg" alt="Replit Logo" class="profile-icon" />
           <div class="profile-card-content">hg0428</div>
         </div>
       </a>
       <a class="invisilink" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/hudson-gouge-24a843244/">
-        <div class="profile-card" id="linkedin-profile-card">
-          <img src="/static/Media/images/logos/LI-In-Bug.png" alt="LinkedIn Logo" class="profile-icon" />
+        <div class="profile-card badge" id="linkedin-profile-card">
+          <img src="/static/Media/images/icons/LI-In-Bug.png" alt="LinkedIn Logo" class="profile-icon" />
           <div class="profile-card-content">Hudson Gouge</div>
         </div>
       </a>
       <a class="invisilink" target="_blank" rel="noopener noreferrer" href="https://x.com/HudsonGouge">
-        <div class="profile-card" id="x-profile-card">
-          <img src="/static/Media/images/logos/x-logo-black.png" alt="X Logo" class="profile-icon" />
+        <div class="profile-card badge" id="x-profile-card">
+          <img src="/static/Media/images/icons/x-logo-black.png" alt="X Logo" class="profile-icon" />
           <div class="profile-card-content">HudsonGouge</div>
         </div>
       </a>
       <a class="invisilink" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCdTw7k9oLv6mlGuvq6UpJvA">
-        <div class="profile-card" id="youtube-profile-card">
-          <img src="/static/Media/images/logos/YouTube_full-color_icon_(2017).svg" alt="YouTube Logo"
+        <div class="profile-card badge" id="youtube-profile-card">
+          <img src="/static/Media/images/icons/YouTube_full-color_icon_(2017).svg" alt="YouTube Logo"
             class="profile-icon" />
           <div class="profile-card-content">Hudson Gouge</div>
         </div>
       </a>
       <a class="invisilink" target="_blank" rel="noopener noreferrer" href="https://discord.gg/KqhqnHrrZJ">
-        <div class="profile-card" id="discord-profile-card">
-          <img src="/static/Media/images/logos/discord-mark-blue.svg" alt="Discord Logo" class="profile-icon" />
+        <div class="profile-card badge" id="discord-profile-card">
+          <img src="/static/Media/images/icons/discord-mark-blue.svg" alt="Discord Logo" class="profile-icon" />
           <div class="profile-card-content">hudsong0</div>
         </div>
       </a>
+      <a class="invisilink" href="https://huggingface.co/hudsongouge/">
+          <div class="profile-card badge" id="huggingface-profile-card">
+            <img src="/static/Media/images/icons/huggingface.svg" alt="Hugging Face" class="profile-icon" />
+            <div class="profile-card-content">Hudson Gouge</div>
+          </div>
+        </a>
       <a class="invisilink" href="mailto:hudson.gouge@icloud.com">
-        <div class="profile-card" id="email-profile-card">
-          <img src="/static/Media/images/envelope-fill.svg" alt="Email" class="profile-icon" />
+        <div class="profile-card badge" id="email-profile-card">
+          <img src="/static/Media/images/icons/envelope-fill.svg" alt="Email" class="profile-icon" />
           <div class="profile-card-content">hudson.gouge@icloud.com</div>
         </div>
         <a class="invisilink" href="tel:+14236912822">
-          <div class="profile-card" id="phone-profile-card">
-            <img src="/static/Media/images/telephone-fill.svg" alt="Phone" class="profile-icon" />
-            <div class="profile-card-content">+14236912822</div>
-          </div>
-        </a>
-        <a class="invisilink" href="https://huggingface.co/hudsongouge/">
-          <div class="profile-card" id="phone-profile-card">
-            <img src="/static/Media/images/logos/huggingface.svg" alt="Hugging Face" class="profile-icon" />
-            <div class="profile-card-content">Hudson Gouge</div>
+          <div class="profile-card badge" id="phone-profile-card">
+            <img src="/static/Media/images/icons/telephone-fill.svg" alt="Phone" class="profile-icon" />
+            <div class="profile-card-content">+1 (423) 691-2822</div>
           </div>
         </a>
     </div>
@@ -150,7 +154,19 @@
     <h1>Projects</h1>
     <div id="projects-list-wrapper">
       
-    <div class="card" onclick="window.location.href='/projects/DAT-Byte-Small.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Expressionizer.html'">
+      
+              <a href="/projects/Expressionizer.html" class="card-title" target="_blank" rel="noopener noreferrer">Expressionizer</a>
+      
+      <div class="card-my-age">My Age: <span class="age">17</span></div>
+      
+      
+      
+      <p class="project-description">A Python library for symbolic math expression building, simplification, and step-by-step evaluation. Renders explanations in plain text and LaTeX, supports derivatives, integrals, and multivariate calculus, and ships with localization packs for 7 languages. I primarily use it to procedurally generate math training data with full solution traces.</p>
+      
+            </div>
+      
+    <div class="card badge" onclick="window.location.href='/projects/DAT-Byte-Small.html'">
       
       <img class="card-main-image" src="https://huggingface.co/hudsongouge/DAT-Byte-Small/resolve/main/dat_byte_banner_highres.png" />
       
@@ -164,7 +180,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/MMLU-NGRAM.html'">
+    <div class="card badge" onclick="window.location.href='/projects/MMLU-NGRAM.html'">
       
       <img class="card-main-image" src="https://huggingface.co/datasets/hudsongouge/MMLU-NGRAM/resolve/main/benchmarks-chart.png" />
       
@@ -178,7 +194,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/TinyBookyLLM.html'">
+    <div class="card badge" onclick="window.location.href='/projects/TinyBookyLLM.html'">
       
               <a href="/projects/TinyBookyLLM.html" class="card-title" target="_blank" rel="noopener noreferrer">TinyBookyLLM</a>
       
@@ -190,7 +206,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/OpenDiscord.html'">
+    <div class="card badge" onclick="window.location.href='/projects/OpenDiscord.html'">
       
               <a href="/projects/OpenDiscord.html" class="card-title" target="_blank" rel="noopener noreferrer">OpenDiscord</a>
       
@@ -202,7 +218,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Time-Accountability.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Time-Accountability.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/accountability.jpeg" />
       
@@ -216,7 +232,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Copper-Scroll-Project-Website.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Copper-Scroll-Project-Website.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/csp.png" />
       
@@ -230,7 +246,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Chatter-70M.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Chatter-70M.html'">
       
               <a href="/projects/Chatter-70M.html" class="card-title" target="_blank" rel="noopener noreferrer">Chatter 70M</a>
       
@@ -242,7 +258,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/HOSS.html'">
+    <div class="card badge" onclick="window.location.href='/projects/HOSS.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/hoss-create-org.jpeg" />
       
@@ -258,7 +274,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/The-Trial-of-Freedom:-AI-Regulation.html'">
+    <div class="card badge" onclick="window.location.href='/projects/The-Trial-of-Freedom:-AI-Regulation.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/trial-of-freedom.png" />
       
@@ -272,7 +288,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/LLM-Probability-Visualizer.html'">
+    <div class="card badge" onclick="window.location.href='/projects/LLM-Probability-Visualizer.html'">
       
       <iframe class="card-main-image"  height="250" src="https://www.youtube.com/embed/3JiXz7yYgUE?si=EQW_gAUNI398t-51" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       
@@ -288,7 +304,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Emerge-Gen-Z.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Emerge-Gen-Z.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/emerge-gen-z.png" />
       
@@ -304,7 +320,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Writing-In-Color.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Writing-In-Color.html'">
       
       <iframe class="card-main-image"  height="250" src="https://www.youtube.com/embed/hegBuuvEIN8?si=pk-Qs5PBeFmIQMoZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       
@@ -320,7 +336,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/MAR-PS.html'">
+    <div class="card badge" onclick="window.location.href='/projects/MAR-PS.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/mar-ps-img1.png" />
       
@@ -336,7 +352,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Aardvark-1.0-Compiler.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Aardvark-1.0-Compiler.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/Aardvark-1.png" />
       
@@ -352,7 +368,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Aardvark-1.0-Documentation,-Specifications,-and-Articles.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Aardvark-1.0-Documentation,-Specifications,-and-Articles.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/Aardvark-docs-1.png" />
       
@@ -366,7 +382,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Aardvark-1.0-Interpretter.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Aardvark-1.0-Interpretter.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/Aardvark-1.png" />
       
@@ -382,7 +398,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/New-Profile-Page.html'">
+    <div class="card badge" onclick="window.location.href='/projects/New-Profile-Page.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/new-profile-page.jpeg" />
       
@@ -396,7 +412,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/A.C.T.S.-Biblical-Training-Center-Website.html'">
+    <div class="card badge" onclick="window.location.href='/projects/A.C.T.S.-Biblical-Training-Center-Website.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/acts-lesson-cards.jpeg" />
       
@@ -410,7 +426,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/EncryptoChat.html'">
+    <div class="card badge" onclick="window.location.href='/projects/EncryptoChat.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/encryptochat.png" />
       
@@ -426,7 +442,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Projxon-Cyber-Security-System.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Projxon-Cyber-Security-System.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/pcss.png" />
       
@@ -440,7 +456,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Social-Network---CS50W-Project-4.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Social-Network---CS50W-Project-4.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/network.png" />
       
@@ -454,7 +470,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Mail---CS50W-Project-3.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Mail---CS50W-Project-3.html'">
       
       <iframe class="card-main-image"  height="250" src="https://www.youtube.com/embed/SoaYbhpEDgE?si=bUSLFTxAsPSOUynu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       
@@ -468,7 +484,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Commerce---CS50W-Project-2.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Commerce---CS50W-Project-2.html'">
       
       <iframe class="card-main-image"  height="250" src="https://www.youtube.com/embed/bKkmKkyKVtw?si=I_3f6Ux1JV1IFFXv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       
@@ -482,7 +498,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Wiki---CS50W-Project-1.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Wiki---CS50W-Project-1.html'">
       
       <iframe class="card-main-image"  height="250" src="https://www.youtube.com/embed/KVfx_NpbsBk?si=ssj5KemIyddkDNWu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       
@@ -496,7 +512,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Search---CS50W-Project-0.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Search---CS50W-Project-0.html'">
       
       <iframe class="card-main-image"  height="250" src="https://www.youtube.com/embed/5JZGUomKd_s?si=1pIx-M5d-RrBi1Hn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       
@@ -510,7 +526,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/ProAI.html'">
+    <div class="card badge" onclick="window.location.href='/projects/ProAI.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/ProAI-1.jpg" />
       
@@ -524,7 +540,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Adkcode.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Adkcode.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/adkcode.png" />
       
@@ -538,7 +554,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Tricky-Really-2.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Tricky-Really-2.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/tricky-really-2.png" />
       
@@ -552,7 +568,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Academicool.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Academicool.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/academicool.png" />
       
@@ -566,7 +582,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/AI-(best-version).html'">
+    <div class="card badge" onclick="window.location.href='/projects/AI-(best-version).html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/AI-image-2.png" />
       
@@ -582,7 +598,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Chat.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Chat.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/chat.png" />
       
@@ -596,7 +612,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/New-Game-Engine.html'">
+    <div class="card badge" onclick="window.location.href='/projects/New-Game-Engine.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/new-game-engine-js-2.png" />
       
@@ -610,7 +626,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Search-The-World-3.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Search-The-World-3.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/search-the-world-3-thin.png" />
       
@@ -624,7 +640,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Sticky-Art.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Sticky-Art.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/sticky-art.png" />
       
@@ -638,7 +654,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Never-Too-Spicy.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Never-Too-Spicy.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/never-too-spicy.png" />
       
@@ -652,7 +668,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Just-a-Pong.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Just-a-Pong.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/just-a-pong.png" />
       
@@ -666,7 +682,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/3D-Rain-effect.html'">
+    <div class="card badge" onclick="window.location.href='/projects/3D-Rain-effect.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/3d-rain.png" />
       
@@ -680,7 +696,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/SCIFF-V2.html'">
+    <div class="card badge" onclick="window.location.href='/projects/SCIFF-V2.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/sciff-v2.png" />
       
@@ -694,7 +710,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Counter-Game.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Counter-Game.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/counter-game.png" />
       
@@ -708,7 +724,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Tricky-Really.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Tricky-Really.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/tricky-really-1.png" />
       
@@ -722,7 +738,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/AdkVM-Aardvark-docs.html'">
+    <div class="card badge" onclick="window.location.href='/projects/AdkVM-Aardvark-docs.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/adkvm-docs.png" />
       
@@ -736,7 +752,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/AdkVM---Aardvark-bytecode-compiler.html'">
+    <div class="card badge" onclick="window.location.href='/projects/AdkVM---Aardvark-bytecode-compiler.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/adkvm-1.png" />
       
@@ -750,7 +766,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Idea-Generator-V2.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Idea-Generator-V2.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/idea-gen-2-one.png" />
       
@@ -764,7 +780,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/2D-DOM-JS-Game-Engine.html'">
+    <div class="card badge" onclick="window.location.href='/projects/2D-DOM-JS-Game-Engine.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/game-engine.jpeg" />
       
@@ -778,7 +794,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Socket.io-Test.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Socket.io-Test.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/socketio.jpeg" />
       
@@ -792,7 +808,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Fun-Console-Animation.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Fun-Console-Animation.html'">
       
       <iframe class="card-main-image"  height="250" src="https://www.youtube.com/embed/BHg1wJWQkDk?si=A4Kn2feMcBlLVDQJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       
@@ -806,7 +822,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/CSS-Library.html'">
+    <div class="card badge" onclick="window.location.href='/projects/CSS-Library.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/css-library.png" />
       
@@ -820,7 +836,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Projxon-Login.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Projxon-Login.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/projxon-login-2.png" />
       
@@ -836,7 +852,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Search-The-World-2.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Search-The-World-2.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/search-the-world-2.jpeg" />
       
@@ -850,7 +866,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/CSISP-Website.html'">
+    <div class="card badge" onclick="window.location.href='/projects/CSISP-Website.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/CSISP.png" />
       
@@ -864,7 +880,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Webr.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Webr.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/webr.png" />
       
@@ -878,7 +894,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/My-Original-Profile-Page.html'">
+    <div class="card badge" onclick="window.location.href='/projects/My-Original-Profile-Page.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/my-original-profile-page.jpeg" />
       
@@ -892,7 +908,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/AmazingActiveProgrammingBot.html'">
+    <div class="card badge" onclick="window.location.href='/projects/AmazingActiveProgrammingBot.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/amazingactiveprogrammingbot.jpeg" />
       
@@ -906,7 +922,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Search-The-World-1.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Search-The-World-1.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/search-the-world-1.jpeg" />
       
@@ -920,7 +936,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Idea-Generator-V1.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Idea-Generator-V1.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/idea-gen-1-one.png" />
       
@@ -934,7 +950,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Smartbot.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Smartbot.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/smartbot.png" />
       
@@ -948,7 +964,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Original-Aardvark-docs.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Original-Aardvark-docs.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/original-aardvark-docs.png" />
       
@@ -962,7 +978,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Aardvark-website.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Aardvark-website.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/aardvark-website.png" />
       
@@ -976,7 +992,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/The-original-Aardvark:-0.7.4---0.8.7.html'">
+    <div class="card badge" onclick="window.location.href='/projects/The-original-Aardvark:-0.7.4---0.8.7.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/original-aardvark.png" />
       
@@ -990,7 +1006,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Self-Reproducing-Program.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Self-Reproducing-Program.html'">
       
               <a href="/projects/Self-Reproducing-Program.html" class="card-title" target="_blank" rel="noopener noreferrer">Self-Reproducing Program</a>
       
@@ -1002,7 +1018,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Information-based-Password-Cracker.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Information-based-Password-Cracker.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/password-cracker.png" />
       
@@ -1016,7 +1032,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Simple-Cipher.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Simple-Cipher.html'">
       
               <a href="/projects/Simple-Cipher.html" class="card-title" target="_blank" rel="noopener noreferrer">Simple Cipher</a>
       
@@ -1028,7 +1044,7 @@
         
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Python-Autocorrect.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Python-Autocorrect.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/autocorrect.png" />
       
@@ -1042,7 +1058,7 @@
       
             </div>
       
-    <div class="card" onclick="window.location.href='/projects/Python-Operating-System-Version-2.1.9.html'">
+    <div class="card badge" onclick="window.location.href='/projects/Python-Operating-System-Version-2.1.9.html'">
       
       <img class="card-main-image" src="/static/Media/images/projects/PythonOS.png" />
       

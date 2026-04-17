@@ -107,9 +107,9 @@ menu.compressed {
 menu.compressed a {
 	text-decoration: none;
 	color: var(--main-text-color);
-	font-size: var(--text-base);
+	font-size: var(--text-ml);
+	font-family: var(--font-display);
 	border-radius: 5px;
-	transition: 0.5s;
 }
 
 menu.compressed a:hover {
@@ -121,6 +121,62 @@ menu.compressed a:hover {
 	font-size: var(--text-3xl);
 	font-weight: bold;
 	color: var(--main-text-color);
+}
+.badge {
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	transition:
+		border-color 0.2s ease,
+		background-color 0.2s ease,
+		transform 0.2s ease;
+	background-color: var(--main-background);
+}
+.badge:hover {
+	border-color: rgba(0, 0, 0, 0.35);
+	background-color: rgba(0, 0, 0, 0.03);
+	transform: translateY(-1px);
+}
+.company-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.55rem;
+	margin-top: -0.25rem;
+	margin-bottom: 0.25rem;
+	padding: 0.35rem 0.8rem;
+	border-radius: 999px;
+	color: var(--main-text-color);
+	text-decoration: none;
+	line-height: 1;
+	transition:
+		border-color 0.2s ease,
+		background-color 0.2s ease,
+		transform 0.2s ease;
+}
+.company-badge-label {
+	display: inline-block;
+	font-family: var(--font-mono);
+	font-size: 0.6875rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	color: var(--secondary-text-color);
+	opacity: 0.75;
+	line-height: 1;
+	transform: translateY(0.5px);
+}
+.company-badge-name {
+	display: inline-block;
+	font-family: var(--font-display);
+	font-size: var(--text-base);
+	font-weight: 600;
+	color: var(--main-text-color);
+	line-height: 1;
+}
+:root[data-theme="dark"] .company-badge {
+	border-color: rgba(255, 255, 255, 0.15);
+}
+:root[data-theme="dark"] .company-badge:hover {
+	border-color: rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.04);
 }
 h1,
 h2 {
@@ -139,7 +195,7 @@ h2 {
 }
 
 #main-content {
-	padding: 6rem;
+	padding: 5rem 6rem;
 	width: 100%;
 	/* height: calc(100vh - var(--topbar-height)); */
 	background-color: var(--main-background);
@@ -161,7 +217,7 @@ h2 {
 #main-content .left-main .head .profile-photo {
 	width: 300px;
 	height: auto;
-	margin: 4rem;
+	margin: 2.5rem;
 	border-radius: 20px;
 }
 #main-content .right-main {
@@ -178,6 +234,7 @@ a.invisilink {
 	font-size: 1.3rem;
 	font-weight: bold;
 	color: var(--main-text-color);
+	font-family: var(--font-display);
 }
 
 .floating-menu {
@@ -262,7 +319,7 @@ a.invisilink {
 	position: relative;
 	text-overflow: ellipsis;
 	cursor: pointer;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 .card:before {
