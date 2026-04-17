@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --inset-distance-light-x: 5px;
   --inset-distance-dark-x: 5px;
   --outset-distance-light-x: 5px;
@@ -16,4 +16,4 @@
 .neumorphic {
   box-shadow: var(--outset-distance-dark-x) var(--outset-distance-dark-y) var(--outset-blur-radius-dark) #000000,
     calc(-1 * var(--outset-distance-light-x)) calc(-1 * var(--outset-distance-light-y)) var(--outset-blur-radius-light) #ffffff;
-}
+} */
