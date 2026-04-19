@@ -72,6 +72,26 @@
         "youtube": null
     },
     {
+        "title": "SCIFF v3",
+        "myAge": "17",
+        "shortDescription": "A ground-up C++ rewrite of my Super Compact Image File Format, descended from the same core ideas as v1 and v2. Dramatically faster than the earlier Python versions, with compression that's competitive with PNG and JPEG across nearly all image types — usually matching or exceeding both, though it doesn't reach the levels of modern formats like WebP or AVIF.",
+        "fullDescription": "SCIFF v3 is a ground-up C++ rewrite of my Super Compact Image File Format, descended from the same core ideas as v1 and v2 but substantially redesigned. The encoder and decoder are dramatically faster than the earlier Python implementations, and the format's compression is now competitive with PNG and JPEG on nearly all image types — usually matching or exceeding both. It doesn't yet reach the compression levels of modern formats like WebP or AVIF, but for a hobby format it holds its own against the widely-deployed baselines. Files can still be converted to and from SCIFF, with metadata support carried over from earlier versions.",
+        "images": [],
+        "frontImage": null,
+        "tags": [
+            "c++",
+            "image format",
+            "compression",
+            "file format",
+            "systems",
+            "binary format",
+            "open source"
+        ],
+        "link": null,
+        "code": "https://github.com/hg0428/SCIFFv3",
+        "youtube": null
+    },
+    {
         "title": "TinyBookyLLM",
         "myAge": "17",
         "shortDescription": "A 65M-parameter Llama-3-style LLM I trained on my laptop in about 30 minutes on ~32M tokens of Gutenberg English. 9 layers, 640 hidden, 8 Q / 2 KV heads (GQA), RoPE, 16k BPE tokenizer. It writes surprisingly coherent Victorian-sounding prose for a model this small.",
@@ -903,10 +923,12 @@
         ],
         "frontImage": "/static/Media/images/projects/sciff-v2.png",
         "tags": [
-            "html",
-            "css",
-            "javascript",
-            "game"
+            "python",
+            "image format",
+            "compression",
+            "file format",
+            "bitarray",
+            "pillow"
         ],
         "link": "https://replit.com/@hg0428/SCIFF-V2",
         "code": "https://replit.com/@hg0428/SCIFF-V2",
