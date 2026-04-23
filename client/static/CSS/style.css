@@ -9,7 +9,9 @@
 	--topbar-height: 50px;
 	--projects-padding: 2rem;
 	--card-width: min(320px, calc(100vw - var(--projects-padding) * 2));
+	--featured-card-width: min(384px, calc(100vw - var(--projects-padding) * 2));
 	--card-height: 540px;
+	--featured-card-height: 450px;
 	--shadow-light: #fff;
 	--shadow-dark: #000;
 	--card-padding: 15px;
@@ -395,7 +397,7 @@ body[data-nav-open="true"] {
 	width: 100%;
 }
 
-#projects-list-wrapper {
+.card-display {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -416,23 +418,16 @@ body[data-nav-open="true"] {
 	/* box-shadow: 6px 6px 12px var(--shadow-dark),
     -2px -2px 4px var(--shadow-light); */
 	position: relative;
-	text-overflow: ellipsis;
+	/* text-overflow: ellipsis; */
 	cursor: pointer;
 	/* border: 1px solid black; */
 }
-
-.card:before {
-	/* box-shadow:
-		inset 5px 5px 10px var(--shadow-dark),
-		inset -2px -2px 8px var(--shadow-light); */
-	width: 100%;
-	height: 100%;
-	content: "";
-	position: absolute;
-	pointer-events: none;
-	top: 0;
-	left: 0;
-	border-radius: 20px;
+.card.featured {
+	width: var(--featured-card-width);
+	height: var(--featured-card-height);
+}
+.card.featured .card-main-image {
+	width: var(--featured-card-width);
 }
 .card:hover:before {
 	box-shadow: none;
@@ -451,17 +446,55 @@ body[data-nav-open="true"] {
 	margin-left: calc(-1 * var(--card-padding));
 	margin-top: calc(-1 * var(--card-padding));
 }
+.card-video-shell {
+	height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:
+		linear-gradient(135deg, rgba(0, 122, 255, 0.14), rgba(12, 22, 38, 0.02)),
+		linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(236, 240, 245, 0.96));
+}
+.card-video-thumbnail {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+}
+.card-video-fallback {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.3rem;
+	padding: 1.25rem;
+	text-align: center;
+	border: 1px dashed rgba(0, 122, 255, 0.22);
+	border-radius: 0 0 20px 20px;
+}
+.card-video-label {
+	font-family: var(--font-display);
+	font-size: var(--text-lg);
+	font-weight: 600;
+}
+.card-video-meta {
+	font-size: var(--text-sm);
+	color: var(--secondary-text-color);
+}
 .card-title {
 	font-size: 1.15rem;
 	font-weight: bold;
 	color: var(--main-text-color);
+	font-family: var(--font-display);
 	text-decoration: none;
 }
 .card-title:hover {
 	border-bottom: 1px solid var(--main-text-color);
 }
 .card p {
-	text-overflow: ellipsis;
+	/* text-overflow: ellipsis; */
 	overflow: hidden;
 }
 a {
@@ -486,18 +519,153 @@ footer {
 .text-center {
 	text-align: center;
 }
-#about {
+#about,
+.text-column {
 	text-align: left;
 	width: 100%;
 	max-width: 62ch;
 	margin-inline: auto;
 }
-#about p {
+#about p,
+.text-column p {
 	padding: 0 0 1em 0;
 	font-weight: 400;
 	font-size: var(--text-ml);
 	line-height: 1.65;
 	font-family: var(--font-body);
+}
+.archive-controls {
+	width: min(100%, 72rem);
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	gap: 0.75rem;
+	padding: 0 1.5rem;
+	margin-bottom: 1rem;
+}
+.archive-toolbar {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto;
+	gap: 1rem;
+	align-items: end;
+}
+.archive-field {
+	display: flex;
+	flex-direction: column;
+	gap: 0.45rem;
+}
+.archive-search-label {
+	font-family: var(--font-display);
+	font-size: var(--text-lg);
+	font-weight: 600;
+}
+.archive-sort-label {
+	font-family: var(--font-mono);
+	font-size: var(--text-xs);
+	color: var(--secondary-text-color);
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+}
+.archive-search-input {
+	width: 100%;
+	padding: 0.95rem 1.15rem;
+	border: 1px solid rgba(51, 51, 51, 0.18);
+	border-radius: 999px;
+	background-color: rgba(255, 255, 255, 0.86);
+	color: var(--main-text-color);
+	font-size: var(--text-base);
+	font-family: var(--font-body);
+	outline: none;
+}
+.archive-search-input::placeholder {
+	color: rgba(50, 55, 60, 0.7);
+}
+.archive-search-input:focus {
+	border-color: rgba(0, 122, 255, 0.55);
+	box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.1);
+}
+.archive-sort-select {
+	min-width: 11rem;
+	padding: 0.95rem 1rem;
+	border: 1px solid rgba(51, 51, 51, 0.18);
+	border-radius: 999px;
+	background-color: rgba(255, 255, 255, 0.86);
+	color: var(--main-text-color);
+	font-size: var(--text-sm);
+	font-family: var(--font-body);
+	outline: none;
+}
+.archive-sort-select:focus {
+	border-color: rgba(0, 122, 255, 0.55);
+	box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.1);
+}
+.archive-search-summary {
+	padding: 0;
+	color: var(--secondary-text-color);
+	font-size: var(--text-sm);
+}
+.archive-empty-state {
+	width: 100%;
+	padding: 1rem 1.25rem;
+	text-align: center;
+	font-size: var(--text-sm);
+	color: var(--secondary-text-color);
+}
+/* Flex-container defaults center horizontally; keep text-column left-aligned. */
+.text-column {
+	align-items: flex-start;
+}
+.text-column h1 {
+	align-self: center;
+}
+
+/* Experience / Education entries: header row + optional body paragraph. */
+.entry {
+	width: 100%;
+	margin-bottom: 1.5rem;
+}
+.entry:last-child {
+	margin-bottom: 0;
+}
+.entry-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	flex-wrap: wrap;
+	gap: 0.35rem 1.25rem;
+}
+.entry-title {
+	font-family: var(--font-display);
+	font-size: var(--text-lg);
+	font-weight: 600;
+	line-height: 1.25;
+	margin: 0;
+}
+.entry-title a {
+	color: var(--main-text-color);
+}
+.entry-title a:hover {
+	border-bottom: 1px solid var(--main-text-color);
+}
+.entry-sep {
+	color: var(--secondary-text-color);
+	opacity: 0.55;
+	margin: 0 0.15rem;
+}
+.entry-meta {
+	font-family: var(--font-mono);
+	font-size: var(--text-xs);
+	color: var(--secondary-text-color);
+	opacity: 0.75;
+	white-space: nowrap;
+}
+.text-column .entry-body {
+	padding: 0.35rem 0 0 0;
+}
+
+/* Keep pill-shaped links (company badge, archive CTA) on one line. */
+.company-badge {
+	white-space: nowrap;
 }
 @media only screen and (max-width: 275px) {
 	#name {
@@ -530,6 +698,15 @@ footer {
 	}
 	#about {
 		padding: 0 1.5rem;
+	}
+	.archive-controls {
+		padding: 0 1rem;
+	}
+	.archive-toolbar {
+		grid-template-columns: 1fr;
+	}
+	.archive-sort-select {
+		width: 100%;
 	}
 }
 @media only screen and (max-width: 800px) {

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Writer│The Neural Pioneer",
+    "url": "https://neuralpioneer.org/",
+    "image": "/static/Media/images/featured/neural-pioneer/banner-upscaled.png",
+    "description": "The Neural Pioneer bridges the gap between the latest research and industry application. We break down new technical papers, test new model releases, and provide actionable insights for developers and business leaders alike."
+  },
+  {
+    "title": "Panelist│Appalachian AI Summit",
+    "url": "https://www.tusculumbusinesslab.com/",
+    "image": "/static/Media/images/featured/appalachian-ai-summit/image.png",
+    "description": "The 2026 Appalachian AI Summit was hosted at Tusculum University in Greeneville, Tennessee. I was a panelist and speaker at the event, where I presented on the benefits of customizing AI models."
+  },
+  {
+    "title": "AI Engineer│Projxon AI",
+    "url": "https://projxon.ai/",
+    "image": "/static/Media/images/featured/projxon-ai/wordmark_dark.svg",
+    "description": "My business where we develop custom AI models for specific use-cases."
+  }
+]

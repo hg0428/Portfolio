@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Lead AI Engineer",
+    "company": "Projxon AI",
+    "url": "https://projxon.ai",
+    "start": "Mar 2026",
+    "end": "Present",
+    "location": "Remote",
+    "description": "Leading custom AI training for clients — pre-training, SFT, RLVR, and DPO — alongside proprietary training pipelines and model architectures. Large-scale data processing and quality filtering for training corpora."
+  },
+  {
+    "role": "Contributing Writer",
+    "company": "The Neural Pioneer",
+    "url": "https://neuralpioneer.org/",
+    "start": "Dec 2025",
+    "end": "Present",
+    "description": "Writing about frontier AI research, new model releases, and their practical implications for engineers and operators."
+  },
+  {
+    "role": "AI Engineer",
+    "company": "Cloudwise Academy",
+    "start": "Oct 2025",
+    "end": "Feb 2026",
+    "description": "Built automated AI video analysis with timestamp-aligned comprehension, chat interfaces and agentic tools for a learning management system, and the backend for dynamic model routing and context management. Designed AI systems that help students navigate coursework without enabling cheating."
+  },
+  {
+    "role": "Software Engineer",
+    "company": "Fortis Cyber Defense",
+    "start": "Dec 2024",
+    "end": "Jan 2026",
+    "location": "Remote",
+    "description": "Built enterprise security scanners combining authentication, domain verification, and scanning into a single optimized application. Trained coding-oriented LLMs for niche languages on NVIDIA Blackwell training rigs. Built multi-agent systems that interface with real computer environments and self-verify their own work."
+  },
+  {
+    "role": "Full-Stack Engineer",
+    "company": "New England Info Tech",
+    "start": "May 2024",
+    "end": "Oct 2025",
+    "description": "Built authentication systems from scratch with passkey support, dynamic login flows, and streamlined WebAuthn. Developed a website editor that lets admins edit content, style, and layout while preserving original HTML structure. Handled Salesforce integrations for medical records and associated compliance."
+  },
+  {
+    "role": "Lead Developer",
+    "company": "Aardvark Programming Language",
+    "url": "https://github.com/Aardvark-team/Aardvark-py",
+    "start": "Aug 2020",
+    "end": "Nov 2024",
+    "location": "Remote",
+    "description": "Led development of the Aardvark programming language — Python reference implementation, bytecode VM, interpreter, and compiler — plus AdkCode, an online editor for the language."
+  }
+]

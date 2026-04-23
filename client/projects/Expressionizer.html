@@ -1,14 +1,26 @@
 <!doctype html>
-<html data-theme="light">
+<html data-theme="light" lang="en-US">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="language" content="en-US" />
 		<title>Hudson Gouge - Expressionizer</title>
+
+		<!-- Favicons & manifest -->
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 		<link rel="manifest" href="/site.webmanifest" />
+
+		<!-- Stylesheets & fonts -->
+		<link href="/static/CSS/style.css?v=3" rel="stylesheet" type="text/css" />
+		<link
+			href="/static/CSS/profile-icons.css?v=3"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link href="/static/CSS/neumorphism.css" rel="stylesheet" type="text/css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -16,21 +28,12 @@
 			rel="stylesheet"
 		/>
 
-		<link href="/static/CSS/style.css?v=2" rel="stylesheet" type="text/css" />
-		<link
-			href="/static/CSS/profile-icons.css?v=2"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<link href="/static/CSS/neumorphism.css" rel="stylesheet" type="text/css" />
-		<link href="/static/CSS/project.css" rel="stylesheet" type="text/css" />
 		
-		<meta
-			name="theme-color"
-			media="(prefers-color-scheme: dark)"
-			content="#333333"
-		/>
-		<meta name="description" content="A Python library for symbolic math expression building, simplification, and step-by-step evaluation. Renders explanations in plain text and LaTeX, supports derivatives, integrals, and multivariate calculus, and ships with localization packs for 7 languages. I primarily use it to procedurally generate math training data with full solution traces." />
+  <link href="/static/CSS/project.css" rel="stylesheet" type="text/css" />
+  
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#333333" />
+  <meta name="description" content="A Python library for symbolic math expression building, simplification, and step-by-step evaluation. Renders explanations in plain text and LaTeX, supports derivatives, integrals, and multivariate calculus, and ships with localization packs for 7 languages. I primarily use it to procedurally generate math training data with full solution traces." />
+
 	</head>
 
 	<body>
@@ -41,10 +44,8 @@
 		>
 			<a class="invisilink title-text" href="/">Hudson Gouge</a>
 			<menu class="compressed large-screen-only">
-				<a class="invisilink" href="/#skills">Skills</a>
-				<a class="invisilink" href="/#projects">Projects</a>
-				<a class="invisilink" href="/#contact">Contact</a>
-				<a class="invisilink" href="/">About</a>
+				<a class="invisilink" href="/">Home</a>
+				<a class="invisilink" href="/archive">Archive</a>
 			</menu>
 			<button
 				class="nav-toggle small-screen-only"
@@ -64,34 +65,37 @@
 			id="mobile-nav"
 			aria-label="Mobile"
 		>
-			<a class="invisilink" href="/#skills">Skills</a>
-			<a class="invisilink" href="/#projects">Projects</a>
-			<a class="invisilink" href="/#contact">Contact</a>
-			<a class="invisilink" href="/">About</a>
+			<a class="invisilink" href="/">Home</a>
+			<a class="invisilink" href="/archive">Archive</a>
 		</nav>
-		<div class="project-info">
-			<div class="project-images gallery" id="image-gallery">
-				
-			</div>
-			<h1 class="project-title">Expressionizer</h1>
-			<div id="project-links">
-				
-				<div class="text-center">
-					<a href="https://pypi.org/project/expressionizer/" target="_blank" rel="noopener noreferrer"
-						>Visit</a
-					>
-				</div>
-				 
-			</div>
-			
-			<div class="card-my-age">
-				My Age: <span class="age">17</span>
-			</div>
-			   
-			<p class="project-description">Expressionizer is a Python library for symbolic math expression building, simplification, and step-by-step evaluation. Unlike a typical CAS, it is designed around explainable algebraic transformation — every evaluation returns both a result and a rendered context tracing the steps, decomposition, and reasoning.<br><br>Core features include symbolic expression-tree primitives (<code>Symbol</code>, <code>Sum</code>, <code>Product</code>, <code>Power</code>, <code>FunctionCall</code>, <code>Equation</code>, <code>InEquality</code>), a rule-based calculus engine covering multivariate differentiation and definite/indefinite integrals, plain-text + LaTeX rendering, structured explanation output for downstream pipelines (<code>render_document()</code>, <code>render_json()</code>), calculator-mode tool-call placeholders for training workflows, and order-of-magnitude estimation to bound runaway traces on large numeric ops.<br><br>Built-in localization packs ship for English, Spanish, French, German, Korean, Hebrew, and Hebrew with niqqud, each validated for placeholder safety and English-leakage. <code>ExplanationProfile</code> allows per-call locale swaps, preset overlays (default, compact, plain, XML), and fine-grained template overrides for downstream rendering.<br><br>I primarily use Expressionizer for procedural generation of math training data — producing large datasets of problems paired with step-by-step solutions across multiple languages and formatting styles — but it is equally applicable to math tutoring tools, educational software, and any system that needs algebraic reasoning with human-readable traces. Published on PyPI, currently at 0.8.3 (pre-stable, tracking toward 1.0).</p>
-			
-		</div>
+
+		
+  <div class="project-info">
+    <div class="project-images gallery" id="image-gallery">
+      
+    </div>
+    <h1 class="project-title">Expressionizer</h1>
+    <div id="project-links">
+      
+      <div class="text-center">
+        <a href="https://pypi.org/project/expressionizer/" target="_blank" rel="noopener noreferrer">Visit</a>
+      </div>
+      
+      
+    </div>
+    
+    <div class="card-my-age">My Age: <span class="age">17</span></div>
+    
+    
+    
+    
+    <p class="project-description">Expressionizer is a Python library for symbolic math expression building, simplification, and step-by-step evaluation. Unlike a typical CAS, it is designed around explainable algebraic transformation — every evaluation returns both a result and a rendered context tracing the steps, decomposition, and reasoning.<br><br>Core features include symbolic expression-tree primitives (<code>Symbol</code>, <code>Sum</code>, <code>Product</code>, <code>Power</code>, <code>FunctionCall</code>, <code>Equation</code>, <code>InEquality</code>), a rule-based calculus engine covering multivariate differentiation and definite/indefinite integrals, plain-text + LaTeX rendering, structured explanation output for downstream pipelines (<code>render_document()</code>, <code>render_json()</code>), calculator-mode tool-call placeholders for training workflows, and order-of-magnitude estimation to bound runaway traces on large numeric ops.<br><br>Built-in localization packs ship for English, Spanish, French, German, Korean, Hebrew, and Hebrew with niqqud, each validated for placeholder safety and English-leakage. <code>ExplanationProfile</code> allows per-call locale swaps, preset overlays (default, compact, plain, XML), and fine-grained template overrides for downstream rendering.<br><br>I primarily use Expressionizer for procedural generation of math training data — producing large datasets of problems paired with step-by-step solutions across multiple languages and formatting styles — but it is equally applicable to math tutoring tools, educational software, and any system that needs algebraic reasoning with human-readable traces. Published on PyPI, currently at 0.8.3 (pre-stable, tracking toward 1.0).</p>
+    
+  </div>
+
+
 		<footer>© 2026 Hudson Gouge</footer>
-		<script src="/static/Javascript/script.js?v=2" defer></script>
+		<script src="/static/Javascript/script.js?v=3" defer></script>
+		
 	</body>
 </html>

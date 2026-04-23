@@ -1,14 +1,26 @@
 <!doctype html>
-<html data-theme="light">
+<html data-theme="light" lang="en-US">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="language" content="en-US" />
 		<title>Hudson Gouge - TinyBookyLLM</title>
+
+		<!-- Favicons & manifest -->
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 		<link rel="manifest" href="/site.webmanifest" />
+
+		<!-- Stylesheets & fonts -->
+		<link href="/static/CSS/style.css?v=3" rel="stylesheet" type="text/css" />
+		<link
+			href="/static/CSS/profile-icons.css?v=3"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link href="/static/CSS/neumorphism.css" rel="stylesheet" type="text/css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -16,21 +28,12 @@
 			rel="stylesheet"
 		/>
 
-		<link href="/static/CSS/style.css?v=2" rel="stylesheet" type="text/css" />
-		<link
-			href="/static/CSS/profile-icons.css?v=2"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<link href="/static/CSS/neumorphism.css" rel="stylesheet" type="text/css" />
-		<link href="/static/CSS/project.css" rel="stylesheet" type="text/css" />
 		
-		<meta
-			name="theme-color"
-			media="(prefers-color-scheme: dark)"
-			content="#333333"
-		/>
-		<meta name="description" content="A 65M-parameter Llama-3-style LLM I trained on my laptop in about 30 minutes on ~32M tokens of Gutenberg English. 9 layers, 640 hidden, 8 Q / 2 KV heads (GQA), RoPE, 16k BPE tokenizer. It writes surprisingly coherent Victorian-sounding prose for a model this small." />
+  <link href="/static/CSS/project.css" rel="stylesheet" type="text/css" />
+  
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#333333" />
+  <meta name="description" content="A 65M-parameter Llama-3-style LLM I trained on my laptop in about 30 minutes on ~32M tokens of Gutenberg English. 9 layers, 640 hidden, 8 Q / 2 KV heads (GQA), RoPE, 16k BPE tokenizer. It writes surprisingly coherent Victorian-sounding prose for a model this small." />
+
 	</head>
 
 	<body>
@@ -41,10 +44,8 @@
 		>
 			<a class="invisilink title-text" href="/">Hudson Gouge</a>
 			<menu class="compressed large-screen-only">
-				<a class="invisilink" href="/#skills">Skills</a>
-				<a class="invisilink" href="/#projects">Projects</a>
-				<a class="invisilink" href="/#contact">Contact</a>
-				<a class="invisilink" href="/">About</a>
+				<a class="invisilink" href="/">Home</a>
+				<a class="invisilink" href="/archive">Archive</a>
 			</menu>
 			<button
 				class="nav-toggle small-screen-only"
@@ -64,34 +65,37 @@
 			id="mobile-nav"
 			aria-label="Mobile"
 		>
-			<a class="invisilink" href="/#skills">Skills</a>
-			<a class="invisilink" href="/#projects">Projects</a>
-			<a class="invisilink" href="/#contact">Contact</a>
-			<a class="invisilink" href="/">About</a>
+			<a class="invisilink" href="/">Home</a>
+			<a class="invisilink" href="/archive">Archive</a>
 		</nav>
-		<div class="project-info">
-			<div class="project-images gallery" id="image-gallery">
-				
-			</div>
-			<h1 class="project-title">TinyBookyLLM</h1>
-			<div id="project-links">
-				
-				<div class="text-center">
-					<a href="https://huggingface.co/hudsongouge/TinyBookyLLM" target="_blank" rel="noopener noreferrer"
-						>Visit</a
-					>
-				</div>
-				 
-			</div>
-			
-			<div class="card-my-age">
-				My Age: <span class="age">17</span>
-			</div>
-			   
-			<p class="project-description">TinyBookyLLM is a 65M-parameter Llama-3-architecture LLM trained on my laptop in roughly half an hour using only ~5GB of memory. Trained on ~32M tokens of Gutenberg English with a 16k BPE tokenizer. Architecture: 9 layers, 640 hidden size, 2048 intermediate, 8 query heads, 2 KV heads (GQA), RoPE, SiLU, 512 sequence length. 16,000 steps, peak LR 5e-5, cosine decay, no warmup. The output sounds like a convincingly coherent pastiche of 19th-century English prose — a fun demonstration of how much style a very small model can absorb from a focused corpus.</p>
-			
-		</div>
+
+		
+  <div class="project-info">
+    <div class="project-images gallery" id="image-gallery">
+      
+    </div>
+    <h1 class="project-title">TinyBookyLLM</h1>
+    <div id="project-links">
+      
+      <div class="text-center">
+        <a href="https://huggingface.co/hudsongouge/TinyBookyLLM" target="_blank" rel="noopener noreferrer">Visit</a>
+      </div>
+      
+      
+    </div>
+    
+    <div class="card-my-age">My Age: <span class="age">17</span></div>
+    
+    
+    
+    
+    <p class="project-description">TinyBookyLLM is a 65M-parameter Llama-3-architecture LLM trained on my laptop in roughly half an hour using only ~5GB of memory. Trained on ~32M tokens of Gutenberg English with a 16k BPE tokenizer. Architecture: 9 layers, 640 hidden size, 2048 intermediate, 8 query heads, 2 KV heads (GQA), RoPE, SiLU, 512 sequence length. 16,000 steps, peak LR 5e-5, cosine decay, no warmup. The output sounds like a convincingly coherent pastiche of 19th-century English prose — a fun demonstration of how much style a very small model can absorb from a focused corpus.</p>
+    
+  </div>
+
+
 		<footer>© 2026 Hudson Gouge</footer>
-		<script src="/static/Javascript/script.js?v=2" defer></script>
+		<script src="/static/Javascript/script.js?v=3" defer></script>
+		
 	</body>
 </html>

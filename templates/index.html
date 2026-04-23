@@ -1,32 +1,15 @@
-<!DOCTYPE html>
-<html data-theme="light" lang="en-US">
+{% extends "base.html" %}
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <meta name="language" content="en-US" />
-  <title>Hudson Gouge — AI Engineer</title>
+{% block title %}Hudson Gouge — AI Engineer{% endblock %}
+
+{% block head_extra %}
   <meta name="description" content="I'm an AI Engineer and Full-Stack Developer. I train LLMs, build agentic systems, and ship production AI infrastructure. Founder of Projxon AI. Been programming since I was 10." />
   <meta name="author" content="Hudson Gouge" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <link rel="canonical" href="https://hudsongouge.com/" />
 
-  <!-- Favicons & manifest -->
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="manifest" href="/site.webmanifest" />
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#333333" />
-
-  <!-- Stylesheets & fonts -->
-  <link href="/static/CSS/style.css?v=2" rel="stylesheet" type="text/css" />
-  <link href="/static/CSS/profile-icons.css?v=2" rel="stylesheet" type="text/css" />
-  <link href="/static/CSS/neumorphism.css" rel="stylesheet" type="text/css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <!-- Open Graph (Facebook, LinkedIn, Slack, iMessage, Discord) -->
   <meta property="og:type" content="website" />
@@ -117,26 +100,9 @@
     ]
   }
   </script>
-</head>
+{% endblock %}
 
-<body>
-  <nav aria-labelledby="primary-navigation" class="horizontal-full" id="topbar">
-    <a class="invisilink title-text" href="/">Hudson Gouge</a>
-    <menu class="compressed large-screen-only">
-      <a class="invisilink" href="/">Home</a>
-      <a class="invisilink" href="/#about">About</a>
-      <a class="invisilink" href="/#projects">Projects</a>
-    </menu>
-    <button class="nav-toggle small-screen-only" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
-      <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
-    </button>
-  </nav>
-  <div class="nav-backdrop small-screen-only" aria-hidden="true"></div>
-  <nav class="nav-drawer small-screen-only" id="mobile-nav" aria-label="Mobile">
-    <a class="invisilink" href="/">Home</a>
-    <a class="invisilink" href="/#about">About</a>
-    <a class="invisilink" href="/#projects">Projects</a>
-  </nav>
+{% block content %}
   <div id="main-content" class="main-section">
     <div class="left-main">
     <div class="head" id="intro">
@@ -211,24 +177,79 @@
       I'm a AI Engineer and Software Developer who loves the thrill of redefining what it possible. I have an Associate's Degree from Tusculum University and I am currently enrolled there working toward my bachelor's. Currently, I work as an AI Engineer building and training Large Language Models and other types of AI models from next-token prediction to span corruption denoising to embedding and classification. I also do app development, web development, and other things from time to time – like maintenance on this website (which I initially built at 15) though not nearly as much as I used to.</p>
       <p>I've been programming for over 7 years – since I was 10. I officially published my first project when I was 11 on Replit. Since then I've tried out building all sorts of things from search engines to compilers to image formats to websites to apps to games, and so much more. Many of those past projects are listed here on this website.</p>
       <p>Now that I've been working professionally for a few years, I haven't put out as many public published projects – but that doesn't mean I haven't been building. AI is my passion now and I love the experience of building, curating, and processing training data for the models I build. I also love to design new architectures and implement things I find on ArXiv. Here you can find a tiny portion of my past projects. If you want information on my experience and education, I encourage you to check out my <a href="https://www.linkedin.com/in/hudson-gouge-24a843244/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
-    <!-- <p>
-      One of the things I love most is the hands-on work of curating, processing, filtering, and refining datasets to create models of higher quality and reliability. I've trained architectures across a range of objectives, including next-token prediction, span-corruption denoising, text categorization, and embeddings. I enjoy engineering custom training pipelines that go from standard supervised training to other techniques like RLVR, DPO, and RLHF. Optimizing models and pipelines to be as efficient as possible—like maximizing performance by training models with NVFP4 on NVIDIA Blackwell chips through Transformer Engine—there's real satisfaction in doing more with less.
-    </p>
-    <p>
-      Beyond training, I love developing the production infrastructure that brings these models to life: building autonomous multi-agent systems, native applications, or web-based interfaces. I'm also active in advancing AI evaluation—I published the MMLU-NGRAM robustness benchmark—and I've enjoyed sharing technical insights as a panelist and breakout session speaker at the 2026 Appalachian AI Summit, as well as contributing as a technical writer for The Neural Pioneer.
-    </p>
-    <p>
-      I recently completed my Associate's degree alongside high school and am currently pursuing my Bachelor's. I've been shipping software since I was 12 and haven't slowed down. My focus is AI training and agentic systems, but my full-stack background means I can own a problem from data pipeline to production UI.
-    </p>
-    <p>
-      I'd love to connect with teams building the next generation of intelligent systems. If you're working on challenging AI problems, feel free to reach out—I'm always up for a conversation about models, infrastructure, or what's next in the field.
-    </p> -->
   </div>
     </div>
   </div>
-  <div id="projects" class="main-section">
+  <div id="featured" class="main-section">
+    <h1>Featured</h1>
+    <div class="card-display">
+      {% for item in featured %}
+      <div class="card badge featured" onclick="window.location.href='{{item.url}}'">
+        {% if item.image %}<img class="card-main-image" src="{{item.image}}" />{% endif %}
+        <a href="{{item.url}}" class="card-title" target="_blank" rel="noopener noreferrer">{{item.title}}</a>
+        <p class="project-description">{{item.description | safe}}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div id="recent-projects" class="main-section">
+    <h1>Recent Projects</h1>
+    <div class="card-display">
+      {% for project in recentProjects %}
+      <div class="card badge" onclick="window.location.href='/projects/{{project.encodedTitle}}.html'">
+        {% if project.frontImage %}
+        <img class="card-main-image" src="{{project.frontImage}}" />
+        {% elif project.youtube %}
+        <iframe class="card-main-image" height="250" src="{{project.youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        {% endif %}
+        <a href="/projects/{{project.encodedTitle}}.html" class="card-title" target="_blank" rel="noopener noreferrer">{{project.title}}</a>
+        <!-- {% if project.myAge %}<div class="card-my-age">My Age: <span class="age">{{project.myAge}}</span></div>{% endif %} -->
+        {% if project.linesOfCode %}<div class="card-lines">Lines of Code: <span class="lines">{{project.linesOfCode}}</span></div>{% endif %}
+        {% if project.shortDescription %}
+        <p class="project-description">{{project.shortDescription | safe}}</p>
+        {% else %}
+        <p class="project-description">{{project.fullDescription | safe}}</p>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    <a class="invisilink badge company-badge" href="/archive">See the full archive &rarr;</a>
+  </div>
+
+  <!-- <div id="experience" class="main-section text-column">
+    <h1>Experience</h1>
+    {% for exp in experience %}
+    <div class="entry">
+      <div class="entry-header">
+        <h3 class="entry-title">
+          {{exp.role}} <span class="entry-sep">&middot;</span>
+          {% if exp.url %}<a href="{{exp.url}}" target="_blank" rel="noopener noreferrer">{{exp.company}}</a>{% else %}{{exp.company}}{% endif %}
+        </h3>
+        <span class="entry-meta">{{exp.start}} &mdash; {{exp.end}}{% if exp.location %} &middot; {{exp.location}}{% endif %}</span>
+      </div>
+      {% if exp.description %}<p class="entry-body">{{exp.description}}</p>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div id="education" class="main-section text-column">
+    <h1>Education</h1>
+    {% for ed in education %}
+    <div class="entry">
+      <div class="entry-header">
+        <h3 class="entry-title">
+          {{ed.degree}} <span class="entry-sep">&middot;</span>
+          {% if ed.url %}<a href="{{ed.url}}" target="_blank" rel="noopener noreferrer">{{ed.school}}</a>{% else %}{{ed.school}}{% endif %}
+        </h3>
+        {% if ed.start %}<span class="entry-meta">{{ed.start}} &mdash; {{ed.end}}</span>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div> -->
+  <!-- <div id="projects" class="main-section">
     <h1>Projects</h1>
-    <div id="projects-list-wrapper">
+    <div id="projects-list-wrapper" class="card-display">
       {% for project in projects %}
     <div class="card badge" onclick="window.location.href='/projects/{{project.encodedTitle}}.html'">
       {% if project.frontImage %}
@@ -251,12 +272,11 @@
             </div>
       {% endfor %}
     </div>
-  </div>
-  <footer>
-    © 2026 Hudson Gouge
-  </footer>
+  </div> -->
+{% endblock %}
+
+{% block scripts_extra %}
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <script src="/static/Javascript/script.js?v=2" defer></script>
   <script>
     // const typed = new Typed('#element', {
     //   strings: ["I am a programmer.", "I am a web developer.", "I am a fullstack engineer.", "I am a software developer."],
@@ -267,6 +287,4 @@
     //   backSpeed: 50
     // });
   </script>
-</body>
-
-</html>
+{% endblock %}

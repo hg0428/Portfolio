@@ -1,0 +1,21 @@
+[
+  {
+    "degree": "Bachelor's, Computer Science",
+    "school": "Tusculum University",
+    "url": "https://home.tusculum.edu/",
+    "start": "Aug 2024",
+    "end": "Dec 2027"
+  },
+  {
+    "degree": "Associate's Degree",
+    "school": "Tusculum University",
+    "url": "https://home.tusculum.edu/"
+  },
+  {
+    "degree": "Professional Certificate in Computer Science for Web Development",
+    "school": "CS50 (Harvard)",
+    "url": "https://cs50.harvard.edu/",
+    "start": "Sep 2022",
+    "end": "Nov 2023"
+  }
+]

@@ -29,9 +29,9 @@
         "shortDescription": "A 200M-parameter byte-level Differential Attention Transformer I trained from scratch on an RTX 5090. Decoder-only, 28 layers, 768 hidden, RoPE, pre-LN, and a 259-token byte-level vocabulary. Trained on Gutenberg English, OpenDiscord, and public-domain Bible translations for 31,200 steps across an estimated 5–10B tokens.",
         "fullDescription": "DAT Byte is a family of byte-level Differential Attention Transformers trained from scratch on an RTX 5090. This is the smallest in the family at ~200M parameters. Decoder-only architecture with RoPE, pre-layernorm, 768 hidden, 3072 FFN, 12 attention heads, 28 layers, and a 259-token byte-level vocabulary (256 bytes + 3 specials). Trained on Gutenberg English, OpenDiscord (ChatML-formatted Discord dumps), proprietary Discord data, and a diverse set of public-domain English Bible translations. 31,200 steps, max sequence length 2048, ~5–10B tokens seen during training. Differential Attention from Ye et al. (2024) reduces attention noise, which is especially useful at byte granularity.<br><br>Two larger siblings were also in progress: DAT-Byte Medium (350M) completed training, and DAT-Byte Large (700M) was mid-training. Both were discontinued before publication after I identified an issue in the architecture implementation, compounded by underwhelming benchmark performance relative to similarly sized models. The family may be revisited once the implementation issue is resolved.",
         "images": [
-            "https://huggingface.co/hudsongouge/DAT-Byte-Small/resolve/main/dat_byte_banner_highres.png"
+            "/static/Media/images/projects/dat_byte_banner_highres.png"
         ],
-        "frontImage": "https://huggingface.co/hudsongouge/DAT-Byte-Small/resolve/main/dat_byte_banner_highres.png",
+        "frontImage": "/static/Media/images/projects/dat_byte_banner_highres.png",
         "tags": [
             "ai",
             "llm",
@@ -54,9 +54,9 @@
         "shortDescription": "A robustness benchmark I built and published that rewrites MMLU questions into character n-grams (n=1 to n=4) to test how well LLMs read unconventional, hard-to-parse inputs. Benchmarked Grok-3-mini, GPT-4.1, Gemini 2.5 Flash, Qwen3-235B, and others. Grok-3-mini led with 87%+ across all n; most models dropped 20–30 points from the original.",
         "fullDescription": "MMLU-NGRAM is a robustness benchmark I built and published on Hugging Face. It takes the full 14,042-question MMLU test set and rewrites each question into character n-grams of sizes 1 through 4 — separated by spaces, with words shorter than n left intact. The goal is to evaluate LLM performance on unconventional, hard-to-read inputs. Benchmarks were run on a random 1,500-sample subset across Grok-3-mini, GPT-4.1, GPT-4.1-nano, Gemini 2.5 Flash, Qwen3-4B, Qwen3-235B-A22B, and SmolLM3-3B. Grok-3-mini (thinking) led with 87%+ across every n; most other models dropped 20–30 accuracy points from the original baseline, revealing brittleness in tokenization and reading robustness.",
         "images": [
-            "https://huggingface.co/datasets/hudsongouge/MMLU-NGRAM/resolve/main/benchmarks-chart.png"
+            "/static/Media/images/projects/mmlu-ngram-benchmarks-chart.png"
         ],
-        "frontImage": "https://huggingface.co/datasets/hudsongouge/MMLU-NGRAM/resolve/main/benchmarks-chart.png",
+        "frontImage": "/static/Media/images/projects/mmlu-ngram-benchmarks-chart.png",
         "tags": [
             "ai",
             "llm",

@@ -1,32 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html data-theme="light" lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="language" content="en-US" />
+		<title>Hudson Gouge — AI Engineer</title>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <meta name="language" content="en-US" />
-  <title>Hudson Gouge — AI Engineer</title>
+		<!-- Favicons & manifest -->
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="manifest" href="/site.webmanifest" />
+
+		<!-- Stylesheets & fonts -->
+		<link href="/static/CSS/style.css?v=3" rel="stylesheet" type="text/css" />
+		<link
+			href="/static/CSS/profile-icons.css?v=3"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link href="/static/CSS/neumorphism.css" rel="stylesheet" type="text/css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		
   <meta name="description" content="I'm an AI Engineer and Full-Stack Developer. I train LLMs, build agentic systems, and ship production AI infrastructure. Founder of Projxon AI. Been programming since I was 10." />
   <meta name="author" content="Hudson Gouge" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <link rel="canonical" href="https://hudsongouge.com/" />
 
-  <!-- Favicons & manifest -->
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="manifest" href="/site.webmanifest" />
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#333333" />
-
-  <!-- Stylesheets & fonts -->
-  <link href="/static/CSS/style.css?v=2" rel="stylesheet" type="text/css" />
-  <link href="/static/CSS/profile-icons.css?v=2" rel="stylesheet" type="text/css" />
-  <link href="/static/CSS/neumorphism.css" rel="stylesheet" type="text/css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <!-- Open Graph (Facebook, LinkedIn, Slack, iMessage, Discord) -->
   <meta property="og:type" content="website" />
@@ -117,26 +126,43 @@
     ]
   }
   </script>
-</head>
 
-<body>
-  <nav aria-labelledby="primary-navigation" class="horizontal-full" id="topbar">
-    <a class="invisilink title-text" href="/">Hudson Gouge</a>
-    <menu class="compressed large-screen-only">
-      <a class="invisilink" href="/">Home</a>
-      <a class="invisilink" href="/#about">About</a>
-      <a class="invisilink" href="/#projects">Projects</a>
-    </menu>
-    <button class="nav-toggle small-screen-only" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
-      <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
-    </button>
-  </nav>
-  <div class="nav-backdrop small-screen-only" aria-hidden="true"></div>
-  <nav class="nav-drawer small-screen-only" id="mobile-nav" aria-label="Mobile">
-    <a class="invisilink" href="/">Home</a>
-    <a class="invisilink" href="/#about">About</a>
-    <a class="invisilink" href="/#projects">Projects</a>
-  </nav>
+	</head>
+
+	<body>
+		<nav
+			aria-labelledby="primary-navigation"
+			class="horizontal-full"
+			id="topbar"
+		>
+			<a class="invisilink title-text" href="/">Hudson Gouge</a>
+			<menu class="compressed large-screen-only">
+				<a class="invisilink" href="/">Home</a>
+				<a class="invisilink" href="/archive">Archive</a>
+			</menu>
+			<button
+				class="nav-toggle small-screen-only"
+				type="button"
+				aria-expanded="false"
+				aria-controls="mobile-nav"
+				aria-label="Open menu"
+			>
+				<span class="nav-toggle-bars" aria-hidden="true"
+					><span></span><span></span><span></span
+				></span>
+			</button>
+		</nav>
+		<div class="nav-backdrop small-screen-only" aria-hidden="true"></div>
+		<nav
+			class="nav-drawer small-screen-only"
+			id="mobile-nav"
+			aria-label="Mobile"
+		>
+			<a class="invisilink" href="/">Home</a>
+			<a class="invisilink" href="/archive">Archive</a>
+		</nav>
+
+		
   <div id="main-content" class="main-section">
     <div class="left-main">
     <div class="head" id="intro">
@@ -211,24 +237,184 @@
       I'm a AI Engineer and Software Developer who loves the thrill of redefining what it possible. I have an Associate's Degree from Tusculum University and I am currently enrolled there working toward my bachelor's. Currently, I work as an AI Engineer building and training Large Language Models and other types of AI models from next-token prediction to span corruption denoising to embedding and classification. I also do app development, web development, and other things from time to time – like maintenance on this website (which I initially built at 15) though not nearly as much as I used to.</p>
       <p>I've been programming for over 7 years – since I was 10. I officially published my first project when I was 11 on Replit. Since then I've tried out building all sorts of things from search engines to compilers to image formats to websites to apps to games, and so much more. Many of those past projects are listed here on this website.</p>
       <p>Now that I've been working professionally for a few years, I haven't put out as many public published projects – but that doesn't mean I haven't been building. AI is my passion now and I love the experience of building, curating, and processing training data for the models I build. I also love to design new architectures and implement things I find on ArXiv. Here you can find a tiny portion of my past projects. If you want information on my experience and education, I encourage you to check out my <a href="https://www.linkedin.com/in/hudson-gouge-24a843244/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
-    <!-- <p>
-      One of the things I love most is the hands-on work of curating, processing, filtering, and refining datasets to create models of higher quality and reliability. I've trained architectures across a range of objectives, including next-token prediction, span-corruption denoising, text categorization, and embeddings. I enjoy engineering custom training pipelines that go from standard supervised training to other techniques like RLVR, DPO, and RLHF. Optimizing models and pipelines to be as efficient as possible—like maximizing performance by training models with NVFP4 on NVIDIA Blackwell chips through Transformer Engine—there's real satisfaction in doing more with less.
-    </p>
-    <p>
-      Beyond training, I love developing the production infrastructure that brings these models to life: building autonomous multi-agent systems, native applications, or web-based interfaces. I'm also active in advancing AI evaluation—I published the MMLU-NGRAM robustness benchmark—and I've enjoyed sharing technical insights as a panelist and breakout session speaker at the 2026 Appalachian AI Summit, as well as contributing as a technical writer for The Neural Pioneer.
-    </p>
-    <p>
-      I recently completed my Associate's degree alongside high school and am currently pursuing my Bachelor's. I've been shipping software since I was 12 and haven't slowed down. My focus is AI training and agentic systems, but my full-stack background means I can own a problem from data pipeline to production UI.
-    </p>
-    <p>
-      I'd love to connect with teams building the next generation of intelligent systems. If you're working on challenging AI problems, feel free to reach out—I'm always up for a conversation about models, infrastructure, or what's next in the field.
-    </p> -->
   </div>
     </div>
   </div>
-  <div id="projects" class="main-section">
+  <div id="featured" class="main-section">
+    <h1>Featured</h1>
+    <div class="card-display">
+      
+      <div class="card badge featured" onclick="window.location.href='https://neuralpioneer.org/'">
+        <img class="card-main-image" src="/static/Media/images/featured/neural-pioneer/banner-upscaled.png" />
+        <a href="https://neuralpioneer.org/" class="card-title" target="_blank" rel="noopener noreferrer">Writer│The Neural Pioneer</a>
+        <p class="project-description">The Neural Pioneer bridges the gap between the latest research and industry application. We break down new technical papers, test new model releases, and provide actionable insights for developers and business leaders alike.</p>
+      </div>
+      
+      <div class="card badge featured" onclick="window.location.href='https://www.tusculumbusinesslab.com/'">
+        <img class="card-main-image" src="/static/Media/images/featured/appalachian-ai-summit/image.png" />
+        <a href="https://www.tusculumbusinesslab.com/" class="card-title" target="_blank" rel="noopener noreferrer">Panelist│Appalachian AI Summit</a>
+        <p class="project-description">The 2026 Appalachian AI Summit was hosted at Tusculum University in Greeneville, Tennessee. I was a panelist and speaker at the event, where I presented on the benefits of customizing AI models.</p>
+      </div>
+      
+      <div class="card badge featured" onclick="window.location.href='https://projxon.ai/'">
+        <img class="card-main-image" src="/static/Media/images/featured/projxon-ai/wordmark_dark.svg" />
+        <a href="https://projxon.ai/" class="card-title" target="_blank" rel="noopener noreferrer">AI Engineer│Projxon AI</a>
+        <p class="project-description">My business where we develop custom AI models for specific use-cases.</p>
+      </div>
+      
+    </div>
+  </div>
+
+  <div id="recent-projects" class="main-section">
+    <h1>Recent Projects</h1>
+    <div class="card-display">
+      
+      <div class="card badge" onclick="window.location.href='/projects/Expressionizer.html'">
+        
+        <a href="/projects/Expressionizer.html" class="card-title" target="_blank" rel="noopener noreferrer">Expressionizer</a>
+        <!-- <div class="card-my-age">My Age: <span class="age">17</span></div> -->
+        
+        
+        <p class="project-description">A Python library for symbolic math expression building, simplification, and step-by-step evaluation. Renders explanations in plain text and LaTeX, supports derivatives, integrals, and multivariate calculus, and ships with localization packs for 7 languages. I primarily use it to procedurally generate math training data with full solution traces.</p>
+        
+      </div>
+      
+      <div class="card badge" onclick="window.location.href='/projects/DAT-Byte-Small.html'">
+        
+        <img class="card-main-image" src="/static/Media/images/projects/dat_byte_banner_highres.png" />
+        
+        <a href="/projects/DAT-Byte-Small.html" class="card-title" target="_blank" rel="noopener noreferrer">DAT-Byte-Small</a>
+        <!-- <div class="card-my-age">My Age: <span class="age">17</span></div> -->
+        
+        
+        <p class="project-description">A 200M-parameter byte-level Differential Attention Transformer I trained from scratch on an RTX 5090. Decoder-only, 28 layers, 768 hidden, RoPE, pre-LN, and a 259-token byte-level vocabulary. Trained on Gutenberg English, OpenDiscord, and public-domain Bible translations for 31,200 steps across an estimated 5–10B tokens.</p>
+        
+      </div>
+      
+      <div class="card badge" onclick="window.location.href='/projects/MMLU-NGRAM.html'">
+        
+        <img class="card-main-image" src="/static/Media/images/projects/mmlu-ngram-benchmarks-chart.png" />
+        
+        <a href="/projects/MMLU-NGRAM.html" class="card-title" target="_blank" rel="noopener noreferrer">MMLU-NGRAM</a>
+        <!-- <div class="card-my-age">My Age: <span class="age">17</span></div> -->
+        
+        
+        <p class="project-description">A robustness benchmark I built and published that rewrites MMLU questions into character n-grams (n=1 to n=4) to test how well LLMs read unconventional, hard-to-parse inputs. Benchmarked Grok-3-mini, GPT-4.1, Gemini 2.5 Flash, Qwen3-235B, and others. Grok-3-mini led with 87%+ across all n; most models dropped 20–30 points from the original.</p>
+        
+      </div>
+      
+    </div>
+    <a class="invisilink badge company-badge" href="/archive">See the full archive &rarr;</a>
+  </div>
+
+  <!-- <div id="experience" class="main-section text-column">
+    <h1>Experience</h1>
+    
+    <div class="entry">
+      <div class="entry-header">
+        <h3 class="entry-title">
+          Lead AI Engineer <span class="entry-sep">&middot;</span>
+          <a href="https://projxon.ai" target="_blank" rel="noopener noreferrer">Projxon AI</a>
+        </h3>
+        <span class="entry-meta">Mar 2026 &mdash; Present &middot; Remote</span>
+      </div>
+      <p class="entry-body">Leading custom AI training for clients — pre-training, SFT, RLVR, and DPO — alongside proprietary training pipelines and model architectures. Large-scale data processing and quality filtering for training corpora.</p>
+    </div>
+    
+    <div class="entry">
+      <div class="entry-header">
+        <h3 class="entry-title">
+          Contributing Writer <span class="entry-sep">&middot;</span>
+          <a href="https://neuralpioneer.org/" target="_blank" rel="noopener noreferrer">The Neural Pioneer</a>
+        </h3>
+        <span class="entry-meta">Dec 2025 &mdash; Present</span>
+      </div>
+      <p class="entry-body">Writing about frontier AI research, new model releases, and their practical implications for engineers and operators.</p>
+    </div>
+    
+    <div class="entry">
+      <div class="entry-header">
+        <h3 class="entry-title">
+          AI Engineer <span class="entry-sep">&middot;</span>
+          Cloudwise Academy
+        </h3>
+        <span class="entry-meta">Oct 2025 &mdash; Feb 2026</span>
+      </div>
+      <p class="entry-body">Built automated AI video analysis with timestamp-aligned comprehension, chat interfaces and agentic tools for a learning management system, and the backend for dynamic model routing and context management. Designed AI systems that help students navigate coursework without enabling cheating.</p>
+    </div>
+    
+    <div class="entry">
+      <div class="entry-header">
+        <h3 class="entry-title">
+          Software Engineer <span class="entry-sep">&middot;</span>
+          Fortis Cyber Defense
+        </h3>
+        <span class="entry-meta">Dec 2024 &mdash; Jan 2026 &middot; Remote</span>
+      </div>
+      <p class="entry-body">Built enterprise security scanners combining authentication, domain verification, and scanning into a single optimized application. Trained coding-oriented LLMs for niche languages on NVIDIA Blackwell training rigs. Built multi-agent systems that interface with real computer environments and self-verify their own work.</p>
+    </div>
+    
+    <div class="entry">
+      <div class="entry-header">
+        <h3 class="entry-title">
+          Full-Stack Engineer <span class="entry-sep">&middot;</span>
+          New England Info Tech
+        </h3>
+        <span class="entry-meta">May 2024 &mdash; Oct 2025</span>
+      </div>
+      <p class="entry-body">Built authentication systems from scratch with passkey support, dynamic login flows, and streamlined WebAuthn. Developed a website editor that lets admins edit content, style, and layout while preserving original HTML structure. Handled Salesforce integrations for medical records and associated compliance.</p>
+    </div>
+    
+    <div class="entry">
+      <div class="entry-header">
+        <h3 class="entry-title">
+          Lead Developer <span class="entry-sep">&middot;</span>
+          <a href="https://github.com/Aardvark-team/Aardvark-py" target="_blank" rel="noopener noreferrer">Aardvark Programming Language</a>
+        </h3>
+        <span class="entry-meta">Aug 2020 &mdash; Nov 2024 &middot; Remote</span>
+      </div>
+      <p class="entry-body">Led development of the Aardvark programming language — Python reference implementation, bytecode VM, interpreter, and compiler — plus AdkCode, an online editor for the language.</p>
+    </div>
+    
+  </div>
+
+  <div id="education" class="main-section text-column">
+    <h1>Education</h1>
+    
+    <div class="entry">
+      <div class="entry-header">
+        <h3 class="entry-title">
+          Bachelor&#39;s, Computer Science <span class="entry-sep">&middot;</span>
+          <a href="https://home.tusculum.edu/" target="_blank" rel="noopener noreferrer">Tusculum University</a>
+        </h3>
+        <span class="entry-meta">Aug 2024 &mdash; Dec 2027</span>
+      </div>
+    </div>
+    
+    <div class="entry">
+      <div class="entry-header">
+        <h3 class="entry-title">
+          Associate&#39;s Degree <span class="entry-sep">&middot;</span>
+          <a href="https://home.tusculum.edu/" target="_blank" rel="noopener noreferrer">Tusculum University</a>
+        </h3>
+        
+      </div>
+    </div>
+    
+    <div class="entry">
+      <div class="entry-header">
+        <h3 class="entry-title">
+          Professional Certificate in Computer Science for Web Development <span class="entry-sep">&middot;</span>
+          <a href="https://cs50.harvard.edu/" target="_blank" rel="noopener noreferrer">CS50 (Harvard)</a>
+        </h3>
+        <span class="entry-meta">Sep 2022 &mdash; Nov 2023</span>
+      </div>
+    </div>
+    
+  </div> -->
+  <!-- <div id="projects" class="main-section">
     <h1>Projects</h1>
-    <div id="projects-list-wrapper">
+    <div id="projects-list-wrapper" class="card-display">
       
     <div class="card badge" onclick="window.location.href='/projects/Expressionizer.html'">
       
@@ -244,7 +430,7 @@
       
     <div class="card badge" onclick="window.location.href='/projects/DAT-Byte-Small.html'">
       
-      <img class="card-main-image" src="https://huggingface.co/hudsongouge/DAT-Byte-Small/resolve/main/dat_byte_banner_highres.png" />
+      <img class="card-main-image" src="/static/Media/images/projects/dat_byte_banner_highres.png" />
       
               <a href="/projects/DAT-Byte-Small.html" class="card-title" target="_blank" rel="noopener noreferrer">DAT-Byte-Small</a>
       
@@ -258,7 +444,7 @@
       
     <div class="card badge" onclick="window.location.href='/projects/MMLU-NGRAM.html'">
       
-      <img class="card-main-image" src="https://huggingface.co/datasets/hudsongouge/MMLU-NGRAM/resolve/main/benchmarks-chart.png" />
+      <img class="card-main-image" src="/static/Media/images/projects/mmlu-ngram-benchmarks-chart.png" />
       
               <a href="/projects/MMLU-NGRAM.html" class="card-title" target="_blank" rel="noopener noreferrer">MMLU-NGRAM</a>
       
@@ -1161,12 +1347,13 @@
             </div>
       
     </div>
-  </div>
-  <footer>
-    © 2026 Hudson Gouge
-  </footer>
+  </div> -->
+
+
+		<footer>© 2026 Hudson Gouge</footer>
+		<script src="/static/Javascript/script.js?v=3" defer></script>
+		
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <script src="/static/Javascript/script.js?v=2" defer></script>
   <script>
     // const typed = new Typed('#element', {
     //   strings: ["I am a programmer.", "I am a web developer.", "I am a fullstack engineer.", "I am a software developer."],
@@ -1177,6 +1364,6 @@
     //   backSpeed: 50
     // });
   </script>
-</body>
 
+	</body>
 </html>
